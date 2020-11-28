@@ -1,0 +1,1847 @@
+1st Configuration NN:
+Configuraciones: -> Topología
+capas Ocultas: -> (16, 8, 6)
+función de Activación: -> relu
+configuraciones: -> Hiperparámetros
+
+EPOCH and Lr 1: -> 5/0.01
+accuracy promedio 1: -> 0.7943223443223443
+precision promedio 1: -> 0.7943223443223443
+recall promedio 1: -> 1.0
+roc Auc promedio 1: -> 0.7557647907647908
+Loss promedio 1: -> 0.4729088869744225
+accuracy Desv. Est 1: -> 0.013649706938294055
+precision Desv. Est 1: -> 0.013649706938294055
+recall Desv. Est: 1 -> 0.0
+roc Auc Desv. Est: 1 -> 0.08150908609821737
+loss Desv. Est: 1 -> 0.0035582075014609343
+
+EPOCH and Lr 2: -> 5/0.05
+accuracy promedio 2: -> 0.7943223443223443
+precision promedio 2: -> 0.7943223443223443
+recall promedio 2: -> 1.0
+roc Auc promedio 2: -> 0.7194300144300144
+Loss promedio 2: -> 0.49113438834002404
+accuracy Desv. Est 2: -> 0.013649706938294055
+precision Desv. Est 2: -> 0.013649706938294055
+recall Desv. Est: 2 -> 0.0
+roc Auc Desv. Est: 2 -> 0.10827894788742459
+loss Desv. Est: 2 -> 0.017691766540987492
+
+EPOCH and Lr 3: -> 5/0.1
+accuracy promedio 3: -> 0.7943223443223443
+precision promedio 3: -> 0.7943223443223443
+recall promedio 3: -> 1.0
+roc Auc promedio 3: -> 0.572056277056277
+Loss promedio 3: -> 0.5161778221060381
+accuracy Desv. Est 3: -> 0.013649706938294055
+precision Desv. Est 3: -> 0.013649706938294055
+recall Desv. Est: 3 -> 0.0
+roc Auc Desv. Est: 3 -> 0.15468553482888656
+loss Desv. Est: 3 -> 0.005381906014512986
+
+EPOCH and Lr 4: -> 5/0.3
+accuracy promedio 4: -> 0.7943223443223443
+precision promedio 4: -> 0.7943223443223443
+recall promedio 4: -> 1.0
+roc Auc promedio 4: -> 0.5746969696969696
+Loss promedio 4: -> 0.5167167681782703
+accuracy Desv. Est 4: -> 0.013649706938294055
+precision Desv. Est 4: -> 0.013649706938294055
+recall Desv. Est: 4 -> 0.0
+roc Auc Desv. Est: 4 -> 0.09952099676104491
+loss Desv. Est: 4 -> 0.0030484197637175698
+
+EPOCH and Lr 5: -> 5/0.5
+accuracy promedio 5: -> 0.7943223443223443
+precision promedio 5: -> 0.7943223443223443
+recall promedio 5: -> 1.0
+roc Auc promedio 5: -> 0.5101154401154401
+Loss promedio 5: -> 0.5204300526409327
+accuracy Desv. Est 5: -> 0.013649706938294055
+precision Desv. Est 5: -> 0.013649706938294055
+recall Desv. Est: 5 -> 0.0
+roc Auc Desv. Est: 5 -> 0.03788891227301213
+loss Desv. Est: 5 -> 0.004651715737186923
+
+EPOCH and Lr 6: -> 10/0.01
+accuracy promedio 6: -> 0.7943223443223443
+precision promedio 6: -> 0.7943223443223443
+recall promedio 6: -> 1.0
+roc Auc promedio 6: -> 0.7557647907647908
+Loss promedio 6: -> 0.4729088869744225
+accuracy Desv. Est 6: -> 0.013649706938294055
+precision Desv. Est 6: -> 0.013649706938294055
+recall Desv. Est: 6 -> 0.0
+roc Auc Desv. Est: 6 -> 0.08150908609821737
+loss Desv. Est: 6 -> 0.0035582075014609343
+
+EPOCH and Lr 7: -> 10/0.05
+accuracy promedio 7: -> 0.7943223443223443
+precision promedio 7: -> 0.7943223443223443
+recall promedio 7: -> 1.0
+roc Auc promedio 7: -> 0.7194300144300144
+Loss promedio 7: -> 0.49113438834002404
+accuracy Desv. Est 7: -> 0.013649706938294055
+precision Desv. Est 7: -> 0.013649706938294055
+recall Desv. Est: 7 -> 0.0
+roc Auc Desv. Est: 7 -> 0.10827894788742459
+loss Desv. Est: 7 -> 0.017691766540987492
+
+EPOCH and Lr 8: -> 10/0.1
+accuracy promedio 8: -> 0.7943223443223443
+precision promedio 8: -> 0.7943223443223443
+recall promedio 8: -> 1.0
+roc Auc promedio 8: -> 0.572056277056277
+Loss promedio 8: -> 0.5161778221060381
+accuracy Desv. Est 8: -> 0.013649706938294055
+precision Desv. Est 8: -> 0.013649706938294055
+recall Desv. Est: 8 -> 0.0
+roc Auc Desv. Est: 8 -> 0.15468553482888656
+loss Desv. Est: 8 -> 0.005381906014512986
+
+EPOCH and Lr 9: -> 10/0.3
+accuracy promedio 9: -> 0.7943223443223443
+precision promedio 9: -> 0.7943223443223443
+recall promedio 9: -> 1.0
+roc Auc promedio 9: -> 0.5746969696969696
+Loss promedio 9: -> 0.5167167681782703
+accuracy Desv. Est 9: -> 0.013649706938294055
+precision Desv. Est 9: -> 0.013649706938294055
+recall Desv. Est: 9 -> 0.0
+roc Auc Desv. Est: 9 -> 0.09952099676104491
+loss Desv. Est: 9 -> 0.0030484197637175698
+
+EPOCH and Lr 10: -> 10/0.5
+accuracy promedio 10: -> 0.7943223443223443
+precision promedio 10: -> 0.7943223443223443
+recall promedio 10: -> 1.0
+roc Auc promedio 10: -> 0.5101154401154401
+Loss promedio 10: -> 0.5204300526409327
+accuracy Desv. Est 10: -> 0.013649706938294055
+precision Desv. Est 10: -> 0.013649706938294055
+recall Desv. Est: 10 -> 0.0
+roc Auc Desv. Est: 10 -> 0.03788891227301213
+loss Desv. Est: 10 -> 0.004651715737186923
+
+EPOCH and Lr 11: -> 15/0.01
+accuracy promedio 11: -> 0.7943223443223443
+precision promedio 11: -> 0.7943223443223443
+recall promedio 11: -> 1.0
+roc Auc promedio 11: -> 0.7557647907647908
+Loss promedio 11: -> 0.4729088869744225
+accuracy Desv. Est 11: -> 0.013649706938294055
+precision Desv. Est 11: -> 0.013649706938294055
+recall Desv. Est: 11 -> 0.0
+roc Auc Desv. Est: 11 -> 0.08150908609821737
+loss Desv. Est: 11 -> 0.0035582075014609343
+
+EPOCH and Lr 12: -> 15/0.05
+accuracy promedio 12: -> 0.7943223443223443
+precision promedio 12: -> 0.7943223443223443
+recall promedio 12: -> 1.0
+roc Auc promedio 12: -> 0.7194300144300144
+Loss promedio 12: -> 0.49113438834002404
+accuracy Desv. Est 12: -> 0.013649706938294055
+precision Desv. Est 12: -> 0.013649706938294055
+recall Desv. Est: 12 -> 0.0
+roc Auc Desv. Est: 12 -> 0.10827894788742459
+loss Desv. Est: 12 -> 0.017691766540987492
+
+EPOCH and Lr 13: -> 15/0.1
+accuracy promedio 13: -> 0.7943223443223443
+precision promedio 13: -> 0.7943223443223443
+recall promedio 13: -> 1.0
+roc Auc promedio 13: -> 0.572056277056277
+Loss promedio 13: -> 0.5161778221060381
+accuracy Desv. Est 13: -> 0.013649706938294055
+precision Desv. Est 13: -> 0.013649706938294055
+recall Desv. Est: 13 -> 0.0
+roc Auc Desv. Est: 13 -> 0.15468553482888656
+loss Desv. Est: 13 -> 0.005381906014512986
+
+EPOCH and Lr 14: -> 15/0.3
+accuracy promedio 14: -> 0.7943223443223443
+precision promedio 14: -> 0.7943223443223443
+recall promedio 14: -> 1.0
+roc Auc promedio 14: -> 0.5746969696969696
+Loss promedio 14: -> 0.5167167681782703
+accuracy Desv. Est 14: -> 0.013649706938294055
+precision Desv. Est 14: -> 0.013649706938294055
+recall Desv. Est: 14 -> 0.0
+roc Auc Desv. Est: 14 -> 0.09952099676104491
+loss Desv. Est: 14 -> 0.0030484197637175698
+
+EPOCH and Lr 15: -> 15/0.5
+accuracy promedio 15: -> 0.7943223443223443
+precision promedio 15: -> 0.7943223443223443
+recall promedio 15: -> 1.0
+roc Auc promedio 15: -> 0.5101154401154401
+Loss promedio 15: -> 0.5204300526409327
+accuracy Desv. Est 15: -> 0.013649706938294055
+precision Desv. Est 15: -> 0.013649706938294055
+recall Desv. Est: 15 -> 0.0
+roc Auc Desv. Est: 15 -> 0.03788891227301213
+loss Desv. Est: 15 -> 0.004651715737186923
+
+EPOCH and Lr 16: -> 20/0.01
+accuracy promedio 16: -> 0.7943223443223443
+precision promedio 16: -> 0.7943223443223443
+recall promedio 16: -> 1.0
+roc Auc promedio 16: -> 0.7557647907647908
+Loss promedio 16: -> 0.4729088869744225
+accuracy Desv. Est 16: -> 0.013649706938294055
+precision Desv. Est 16: -> 0.013649706938294055
+recall Desv. Est: 16 -> 0.0
+roc Auc Desv. Est: 16 -> 0.08150908609821737
+loss Desv. Est: 16 -> 0.0035582075014609343
+
+EPOCH and Lr 17: -> 20/0.05
+accuracy promedio 17: -> 0.7943223443223443
+precision promedio 17: -> 0.7943223443223443
+recall promedio 17: -> 1.0
+roc Auc promedio 17: -> 0.7194300144300144
+Loss promedio 17: -> 0.49113438834002404
+accuracy Desv. Est 17: -> 0.013649706938294055
+precision Desv. Est 17: -> 0.013649706938294055
+recall Desv. Est: 17 -> 0.0
+roc Auc Desv. Est: 17 -> 0.10827894788742459
+loss Desv. Est: 17 -> 0.017691766540987492
+
+EPOCH and Lr 18: -> 20/0.1
+accuracy promedio 18: -> 0.7943223443223443
+precision promedio 18: -> 0.7943223443223443
+recall promedio 18: -> 1.0
+roc Auc promedio 18: -> 0.572056277056277
+Loss promedio 18: -> 0.5161778221060381
+accuracy Desv. Est 18: -> 0.013649706938294055
+precision Desv. Est 18: -> 0.013649706938294055
+recall Desv. Est: 18 -> 0.0
+roc Auc Desv. Est: 18 -> 0.15468553482888656
+loss Desv. Est: 18 -> 0.005381906014512986
+
+EPOCH and Lr 19: -> 20/0.3
+accuracy promedio 19: -> 0.7943223443223443
+precision promedio 19: -> 0.7943223443223443
+recall promedio 19: -> 1.0
+roc Auc promedio 19: -> 0.5746969696969696
+Loss promedio 19: -> 0.5167167681782703
+accuracy Desv. Est 19: -> 0.013649706938294055
+precision Desv. Est 19: -> 0.013649706938294055
+recall Desv. Est: 19 -> 0.0
+roc Auc Desv. Est: 19 -> 0.09952099676104491
+loss Desv. Est: 19 -> 0.0030484197637175698
+
+EPOCH and Lr 20: -> 20/0.5
+accuracy promedio 20: -> 0.7943223443223443
+precision promedio 20: -> 0.7943223443223443
+recall promedio 20: -> 1.0
+roc Auc promedio 20: -> 0.5101154401154401
+Loss promedio 20: -> 0.5204300526409327
+accuracy Desv. Est 20: -> 0.013649706938294055
+precision Desv. Est 20: -> 0.013649706938294055
+recall Desv. Est: 20 -> 0.0
+roc Auc Desv. Est: 20 -> 0.03788891227301213
+loss Desv. Est: 20 -> 0.004651715737186923
+
+EPOCH and Lr 21: -> 25/0.01
+accuracy promedio 21: -> 0.7943223443223443
+precision promedio 21: -> 0.7943223443223443
+recall promedio 21: -> 1.0
+roc Auc promedio 21: -> 0.7557647907647908
+Loss promedio 21: -> 0.4729088869744225
+accuracy Desv. Est 21: -> 0.013649706938294055
+precision Desv. Est 21: -> 0.013649706938294055
+recall Desv. Est: 21 -> 0.0
+roc Auc Desv. Est: 21 -> 0.08150908609821737
+loss Desv. Est: 21 -> 0.0035582075014609343
+
+EPOCH and Lr 22: -> 25/0.05
+accuracy promedio 22: -> 0.7943223443223443
+precision promedio 22: -> 0.7943223443223443
+recall promedio 22: -> 1.0
+roc Auc promedio 22: -> 0.7194300144300144
+Loss promedio 22: -> 0.49113438834002404
+accuracy Desv. Est 22: -> 0.013649706938294055
+precision Desv. Est 22: -> 0.013649706938294055
+recall Desv. Est: 22 -> 0.0
+roc Auc Desv. Est: 22 -> 0.10827894788742459
+loss Desv. Est: 22 -> 0.017691766540987492
+
+EPOCH and Lr 23: -> 25/0.1
+accuracy promedio 23: -> 0.7943223443223443
+precision promedio 23: -> 0.7943223443223443
+recall promedio 23: -> 1.0
+roc Auc promedio 23: -> 0.572056277056277
+Loss promedio 23: -> 0.5161778221060381
+accuracy Desv. Est 23: -> 0.013649706938294055
+precision Desv. Est 23: -> 0.013649706938294055
+recall Desv. Est: 23 -> 0.0
+roc Auc Desv. Est: 23 -> 0.15468553482888656
+loss Desv. Est: 23 -> 0.005381906014512986
+
+EPOCH and Lr 24: -> 25/0.3
+accuracy promedio 24: -> 0.7943223443223443
+precision promedio 24: -> 0.7943223443223443
+recall promedio 24: -> 1.0
+roc Auc promedio 24: -> 0.5746969696969696
+Loss promedio 24: -> 0.5167167681782703
+accuracy Desv. Est 24: -> 0.013649706938294055
+precision Desv. Est 24: -> 0.013649706938294055
+recall Desv. Est: 24 -> 0.0
+roc Auc Desv. Est: 24 -> 0.09952099676104491
+loss Desv. Est: 24 -> 0.0030484197637175698
+
+EPOCH and Lr 25: -> 25/0.5
+accuracy promedio 25: -> 0.7943223443223443
+precision promedio 25: -> 0.7943223443223443
+recall promedio 25: -> 1.0
+roc Auc promedio 25: -> 0.5101154401154401
+Loss promedio 25: -> 0.5204300526409327
+accuracy Desv. Est 25: -> 0.013649706938294055
+precision Desv. Est 25: -> 0.013649706938294055
+recall Desv. Est: 25 -> 0.0
+roc Auc Desv. Est: 25 -> 0.03788891227301213
+loss Desv. Est: 25 -> 0.004651715737186923
+
+EPOCH and Lr 26: -> 30/0.01
+accuracy promedio 26: -> 0.7943223443223443
+precision promedio 26: -> 0.7943223443223443
+recall promedio 26: -> 1.0
+roc Auc promedio 26: -> 0.7557647907647908
+Loss promedio 26: -> 0.4729088869744225
+accuracy Desv. Est 26: -> 0.013649706938294055
+precision Desv. Est 26: -> 0.013649706938294055
+recall Desv. Est: 26 -> 0.0
+roc Auc Desv. Est: 26 -> 0.08150908609821737
+loss Desv. Est: 26 -> 0.0035582075014609343
+
+EPOCH and Lr 27: -> 30/0.05
+accuracy promedio 27: -> 0.7943223443223443
+precision promedio 27: -> 0.7943223443223443
+recall promedio 27: -> 1.0
+roc Auc promedio 27: -> 0.7194300144300144
+Loss promedio 27: -> 0.49113438834002404
+accuracy Desv. Est 27: -> 0.013649706938294055
+precision Desv. Est 27: -> 0.013649706938294055
+recall Desv. Est: 27 -> 0.0
+roc Auc Desv. Est: 27 -> 0.10827894788742459
+loss Desv. Est: 27 -> 0.017691766540987492
+
+EPOCH and Lr 28: -> 30/0.1
+accuracy promedio 28: -> 0.7943223443223443
+precision promedio 28: -> 0.7943223443223443
+recall promedio 28: -> 1.0
+roc Auc promedio 28: -> 0.572056277056277
+Loss promedio 28: -> 0.5161778221060381
+accuracy Desv. Est 28: -> 0.013649706938294055
+precision Desv. Est 28: -> 0.013649706938294055
+recall Desv. Est: 28 -> 0.0
+roc Auc Desv. Est: 28 -> 0.15468553482888656
+loss Desv. Est: 28 -> 0.005381906014512986
+
+EPOCH and Lr 29: -> 30/0.3
+accuracy promedio 29: -> 0.7943223443223443
+precision promedio 29: -> 0.7943223443223443
+recall promedio 29: -> 1.0
+roc Auc promedio 29: -> 0.5746969696969696
+Loss promedio 29: -> 0.5167167681782703
+accuracy Desv. Est 29: -> 0.013649706938294055
+precision Desv. Est 29: -> 0.013649706938294055
+recall Desv. Est: 29 -> 0.0
+roc Auc Desv. Est: 29 -> 0.09952099676104491
+loss Desv. Est: 29 -> 0.0030484197637175698
+
+EPOCH and Lr 30: -> 30/0.5
+accuracy promedio 30: -> 0.7943223443223443
+precision promedio 30: -> 0.7943223443223443
+recall promedio 30: -> 1.0
+roc Auc promedio 30: -> 0.5101154401154401
+Loss promedio 30: -> 0.5204300526409327
+accuracy Desv. Est 30: -> 0.013649706938294055
+precision Desv. Est 30: -> 0.013649706938294055
+recall Desv. Est: 30 -> 0.0
+roc Auc Desv. Est: 30 -> 0.03788891227301213
+loss Desv. Est: 30 -> 0.004651715737186923
+
+Higher AUC of the model: -> 0.7557647907647908
+
+
+
+2nd Configuration NN:
+Configuraciones: -> Topología
+capas Ocultas: -> (30, 18, 10, 4)
+función de Activación: -> relu
+configuraciones: -> Hiperparámetros
+
+EPOCH and Lr 1: -> 5/0.01
+accuracy promedio 1: -> 0.7943223443223443
+precision promedio 1: -> 0.7943223443223443
+recall promedio 1: -> 1.0
+roc Auc promedio 1: -> 0.5
+Loss promedio 1: -> 0.5461238039081437
+accuracy Desv. Est 1: -> 0.013649706938294055
+precision Desv. Est 1: -> 0.013649706938294055
+recall Desv. Est: 1 -> 0.0
+roc Auc Desv. Est: 1 -> 0.0
+loss Desv. Est: 1 -> 0.0034509193044804935
+
+EPOCH and Lr 2: -> 5/0.05
+accuracy promedio 2: -> 0.7943223443223443
+precision promedio 2: -> 0.7943223443223443
+recall promedio 2: -> 1.0
+roc Auc promedio 2: -> 0.5
+Loss promedio 2: -> 0.5455609696229771
+accuracy Desv. Est 2: -> 0.013649706938294055
+precision Desv. Est 2: -> 0.013649706938294055
+recall Desv. Est: 2 -> 0.0
+roc Auc Desv. Est: 2 -> 0.0
+loss Desv. Est: 2 -> 0.0020626163856546967
+
+EPOCH and Lr 3: -> 5/0.1
+accuracy promedio 3: -> 0.7943223443223443
+precision promedio 3: -> 0.7943223443223443
+recall promedio 3: -> 1.0
+roc Auc promedio 3: -> 0.5
+Loss promedio 3: -> 0.5370693568975646
+accuracy Desv. Est 3: -> 0.013649706938294055
+precision Desv. Est 3: -> 0.013649706938294055
+recall Desv. Est: 3 -> 0.0
+roc Auc Desv. Est: 3 -> 0.0
+loss Desv. Est: 3 -> 0.006544300909888515
+
+EPOCH and Lr 4: -> 5/0.3
+accuracy promedio 4: -> 0.7943223443223443
+precision promedio 4: -> 0.7943223443223443
+recall promedio 4: -> 1.0
+roc Auc promedio 4: -> 0.5
+Loss promedio 4: -> 0.5307677991669963
+accuracy Desv. Est 4: -> 0.013649706938294055
+precision Desv. Est 4: -> 0.013649706938294055
+recall Desv. Est: 4 -> 0.0
+roc Auc Desv. Est: 4 -> 0.0
+loss Desv. Est: 4 -> 0.006208729901564431
+
+EPOCH and Lr 5: -> 5/0.5
+accuracy promedio 5: -> 0.7943223443223443
+precision promedio 5: -> 0.7943223443223443
+recall promedio 5: -> 1.0
+roc Auc promedio 5: -> 0.5
+Loss promedio 5: -> 0.5268357749871102
+accuracy Desv. Est 5: -> 0.013649706938294055
+precision Desv. Est 5: -> 0.013649706938294055
+recall Desv. Est: 5 -> 0.0
+roc Auc Desv. Est: 5 -> 0.0
+loss Desv. Est: 5 -> 0.005865513624089101
+
+EPOCH and Lr 6: -> 10/0.01
+accuracy promedio 6: -> 0.7943223443223443
+precision promedio 6: -> 0.7943223443223443
+recall promedio 6: -> 1.0
+roc Auc promedio 6: -> 0.5
+Loss promedio 6: -> 0.5461238039081437
+accuracy Desv. Est 6: -> 0.013649706938294055
+precision Desv. Est 6: -> 0.013649706938294055
+recall Desv. Est: 6 -> 0.0
+roc Auc Desv. Est: 6 -> 0.0
+loss Desv. Est: 6 -> 0.0034509193044804935
+
+EPOCH and Lr 7: -> 10/0.05
+accuracy promedio 7: -> 0.7943223443223443
+precision promedio 7: -> 0.7943223443223443
+recall promedio 7: -> 1.0
+roc Auc promedio 7: -> 0.5
+Loss promedio 7: -> 0.5455609696229771
+accuracy Desv. Est 7: -> 0.013649706938294055
+precision Desv. Est 7: -> 0.013649706938294055
+recall Desv. Est: 7 -> 0.0
+roc Auc Desv. Est: 7 -> 0.0
+loss Desv. Est: 7 -> 0.0020626163856546967
+
+EPOCH and Lr 8: -> 10/0.1
+accuracy promedio 8: -> 0.7943223443223443
+precision promedio 8: -> 0.7943223443223443
+recall promedio 8: -> 1.0
+roc Auc promedio 8: -> 0.5
+Loss promedio 8: -> 0.5370693568975646
+accuracy Desv. Est 8: -> 0.013649706938294055
+precision Desv. Est 8: -> 0.013649706938294055
+recall Desv. Est: 8 -> 0.0
+roc Auc Desv. Est: 8 -> 0.0
+loss Desv. Est: 8 -> 0.006544300909888515
+
+EPOCH and Lr 9: -> 10/0.3
+accuracy promedio 9: -> 0.7943223443223443
+precision promedio 9: -> 0.7943223443223443
+recall promedio 9: -> 1.0
+roc Auc promedio 9: -> 0.5
+Loss promedio 9: -> 0.5307677991669963
+accuracy Desv. Est 9: -> 0.013649706938294055
+precision Desv. Est 9: -> 0.013649706938294055
+recall Desv. Est: 9 -> 0.0
+roc Auc Desv. Est: 9 -> 0.0
+loss Desv. Est: 9 -> 0.006208729901564431
+
+EPOCH and Lr 10: -> 10/0.5
+accuracy promedio 10: -> 0.7943223443223443
+precision promedio 10: -> 0.7943223443223443
+recall promedio 10: -> 1.0
+roc Auc promedio 10: -> 0.5
+Loss promedio 10: -> 0.5268357749871102
+accuracy Desv. Est 10: -> 0.013649706938294055
+precision Desv. Est 10: -> 0.013649706938294055
+recall Desv. Est: 10 -> 0.0
+roc Auc Desv. Est: 10 -> 0.0
+loss Desv. Est: 10 -> 0.005865513624089101
+
+EPOCH and Lr 11: -> 15/0.01
+accuracy promedio 11: -> 0.7943223443223443
+precision promedio 11: -> 0.7943223443223443
+recall promedio 11: -> 1.0
+roc Auc promedio 11: -> 0.5
+Loss promedio 11: -> 0.5461238039081437
+accuracy Desv. Est 11: -> 0.013649706938294055
+precision Desv. Est 11: -> 0.013649706938294055
+recall Desv. Est: 11 -> 0.0
+roc Auc Desv. Est: 11 -> 0.0
+loss Desv. Est: 11 -> 0.0034509193044804935
+
+EPOCH and Lr 12: -> 15/0.05
+accuracy promedio 12: -> 0.7943223443223443
+precision promedio 12: -> 0.7943223443223443
+recall promedio 12: -> 1.0
+roc Auc promedio 12: -> 0.5
+Loss promedio 12: -> 0.5455609696229771
+accuracy Desv. Est 12: -> 0.013649706938294055
+precision Desv. Est 12: -> 0.013649706938294055
+recall Desv. Est: 12 -> 0.0
+roc Auc Desv. Est: 12 -> 0.0
+loss Desv. Est: 12 -> 0.0020626163856546967
+
+EPOCH and Lr 13: -> 15/0.1
+accuracy promedio 13: -> 0.7943223443223443
+precision promedio 13: -> 0.7943223443223443
+recall promedio 13: -> 1.0
+roc Auc promedio 13: -> 0.5
+Loss promedio 13: -> 0.5370693568975646
+accuracy Desv. Est 13: -> 0.013649706938294055
+precision Desv. Est 13: -> 0.013649706938294055
+recall Desv. Est: 13 -> 0.0
+roc Auc Desv. Est: 13 -> 0.0
+loss Desv. Est: 13 -> 0.006544300909888515
+
+EPOCH and Lr 14: -> 15/0.3
+accuracy promedio 14: -> 0.7943223443223443
+precision promedio 14: -> 0.7943223443223443
+recall promedio 14: -> 1.0
+roc Auc promedio 14: -> 0.5
+Loss promedio 14: -> 0.5307677991669963
+accuracy Desv. Est 14: -> 0.013649706938294055
+precision Desv. Est 14: -> 0.013649706938294055
+recall Desv. Est: 14 -> 0.0
+roc Auc Desv. Est: 14 -> 0.0
+loss Desv. Est: 14 -> 0.006208729901564431
+
+EPOCH and Lr 15: -> 15/0.5
+accuracy promedio 15: -> 0.7943223443223443
+precision promedio 15: -> 0.7943223443223443
+recall promedio 15: -> 1.0
+roc Auc promedio 15: -> 0.5
+Loss promedio 15: -> 0.5268357749871102
+accuracy Desv. Est 15: -> 0.013649706938294055
+precision Desv. Est 15: -> 0.013649706938294055
+recall Desv. Est: 15 -> 0.0
+roc Auc Desv. Est: 15 -> 0.0
+loss Desv. Est: 15 -> 0.005865513624089101
+
+EPOCH and Lr 16: -> 20/0.01
+accuracy promedio 16: -> 0.7943223443223443
+precision promedio 16: -> 0.7943223443223443
+recall promedio 16: -> 1.0
+roc Auc promedio 16: -> 0.5
+Loss promedio 16: -> 0.5461238039081437
+accuracy Desv. Est 16: -> 0.013649706938294055
+precision Desv. Est 16: -> 0.013649706938294055
+recall Desv. Est: 16 -> 0.0
+roc Auc Desv. Est: 16 -> 0.0
+loss Desv. Est: 16 -> 0.0034509193044804935
+
+EPOCH and Lr 17: -> 20/0.05
+accuracy promedio 17: -> 0.7943223443223443
+precision promedio 17: -> 0.7943223443223443
+recall promedio 17: -> 1.0
+roc Auc promedio 17: -> 0.5
+Loss promedio 17: -> 0.5455609696229771
+accuracy Desv. Est 17: -> 0.013649706938294055
+precision Desv. Est 17: -> 0.013649706938294055
+recall Desv. Est: 17 -> 0.0
+roc Auc Desv. Est: 17 -> 0.0
+loss Desv. Est: 17 -> 0.0020626163856546967
+
+EPOCH and Lr 18: -> 20/0.1
+accuracy promedio 18: -> 0.7943223443223443
+precision promedio 18: -> 0.7943223443223443
+recall promedio 18: -> 1.0
+roc Auc promedio 18: -> 0.5
+Loss promedio 18: -> 0.5370693568975646
+accuracy Desv. Est 18: -> 0.013649706938294055
+precision Desv. Est 18: -> 0.013649706938294055
+recall Desv. Est: 18 -> 0.0
+roc Auc Desv. Est: 18 -> 0.0
+loss Desv. Est: 18 -> 0.006544300909888515
+
+EPOCH and Lr 19: -> 20/0.3
+accuracy promedio 19: -> 0.7943223443223443
+precision promedio 19: -> 0.7943223443223443
+recall promedio 19: -> 1.0
+roc Auc promedio 19: -> 0.5
+Loss promedio 19: -> 0.5307677991669963
+accuracy Desv. Est 19: -> 0.013649706938294055
+precision Desv. Est 19: -> 0.013649706938294055
+recall Desv. Est: 19 -> 0.0
+roc Auc Desv. Est: 19 -> 0.0
+loss Desv. Est: 19 -> 0.006208729901564431
+
+EPOCH and Lr 20: -> 20/0.5
+accuracy promedio 20: -> 0.7943223443223443
+precision promedio 20: -> 0.7943223443223443
+recall promedio 20: -> 1.0
+roc Auc promedio 20: -> 0.5
+Loss promedio 20: -> 0.5268357749871102
+accuracy Desv. Est 20: -> 0.013649706938294055
+precision Desv. Est 20: -> 0.013649706938294055
+recall Desv. Est: 20 -> 0.0
+roc Auc Desv. Est: 20 -> 0.0
+loss Desv. Est: 20 -> 0.005865513624089101
+
+EPOCH and Lr 21: -> 25/0.01
+accuracy promedio 21: -> 0.7943223443223443
+precision promedio 21: -> 0.7943223443223443
+recall promedio 21: -> 1.0
+roc Auc promedio 21: -> 0.5
+Loss promedio 21: -> 0.5461238039081437
+accuracy Desv. Est 21: -> 0.013649706938294055
+precision Desv. Est 21: -> 0.013649706938294055
+recall Desv. Est: 21 -> 0.0
+roc Auc Desv. Est: 21 -> 0.0
+loss Desv. Est: 21 -> 0.0034509193044804935
+
+EPOCH and Lr 22: -> 25/0.05
+accuracy promedio 22: -> 0.7943223443223443
+precision promedio 22: -> 0.7943223443223443
+recall promedio 22: -> 1.0
+roc Auc promedio 22: -> 0.5
+Loss promedio 22: -> 0.5455609696229771
+accuracy Desv. Est 22: -> 0.013649706938294055
+precision Desv. Est 22: -> 0.013649706938294055
+recall Desv. Est: 22 -> 0.0
+roc Auc Desv. Est: 22 -> 0.0
+loss Desv. Est: 22 -> 0.0020626163856546967
+
+EPOCH and Lr 23: -> 25/0.1
+accuracy promedio 23: -> 0.7943223443223443
+precision promedio 23: -> 0.7943223443223443
+recall promedio 23: -> 1.0
+roc Auc promedio 23: -> 0.5
+Loss promedio 23: -> 0.5370693568975646
+accuracy Desv. Est 23: -> 0.013649706938294055
+precision Desv. Est 23: -> 0.013649706938294055
+recall Desv. Est: 23 -> 0.0
+roc Auc Desv. Est: 23 -> 0.0
+loss Desv. Est: 23 -> 0.006544300909888515
+
+EPOCH and Lr 24: -> 25/0.3
+accuracy promedio 24: -> 0.7943223443223443
+precision promedio 24: -> 0.7943223443223443
+recall promedio 24: -> 1.0
+roc Auc promedio 24: -> 0.5
+Loss promedio 24: -> 0.5307677991669963
+accuracy Desv. Est 24: -> 0.013649706938294055
+precision Desv. Est 24: -> 0.013649706938294055
+recall Desv. Est: 24 -> 0.0
+roc Auc Desv. Est: 24 -> 0.0
+loss Desv. Est: 24 -> 0.006208729901564431
+
+EPOCH and Lr 25: -> 25/0.5
+accuracy promedio 25: -> 0.7943223443223443
+precision promedio 25: -> 0.7943223443223443
+recall promedio 25: -> 1.0
+roc Auc promedio 25: -> 0.5
+Loss promedio 25: -> 0.5268357749871102
+accuracy Desv. Est 25: -> 0.013649706938294055
+precision Desv. Est 25: -> 0.013649706938294055
+recall Desv. Est: 25 -> 0.0
+roc Auc Desv. Est: 25 -> 0.0
+loss Desv. Est: 25 -> 0.005865513624089101
+
+EPOCH and Lr 26: -> 30/0.01
+accuracy promedio 26: -> 0.7943223443223443
+precision promedio 26: -> 0.7943223443223443
+recall promedio 26: -> 1.0
+roc Auc promedio 26: -> 0.5
+Loss promedio 26: -> 0.5461238039081437
+accuracy Desv. Est 26: -> 0.013649706938294055
+precision Desv. Est 26: -> 0.013649706938294055
+recall Desv. Est: 26 -> 0.0
+roc Auc Desv. Est: 26 -> 0.0
+loss Desv. Est: 26 -> 0.0034509193044804935
+
+EPOCH and Lr 27: -> 30/0.05
+accuracy promedio 27: -> 0.7943223443223443
+precision promedio 27: -> 0.7943223443223443
+recall promedio 27: -> 1.0
+roc Auc promedio 27: -> 0.5
+Loss promedio 27: -> 0.5455609696229771
+accuracy Desv. Est 27: -> 0.013649706938294055
+precision Desv. Est 27: -> 0.013649706938294055
+recall Desv. Est: 27 -> 0.0
+roc Auc Desv. Est: 27 -> 0.0
+loss Desv. Est: 27 -> 0.0020626163856546967
+
+EPOCH and Lr 28: -> 30/0.1
+accuracy promedio 28: -> 0.7943223443223443
+precision promedio 28: -> 0.7943223443223443
+recall promedio 28: -> 1.0
+roc Auc promedio 28: -> 0.5
+Loss promedio 28: -> 0.5370693568975646
+accuracy Desv. Est 28: -> 0.013649706938294055
+precision Desv. Est 28: -> 0.013649706938294055
+recall Desv. Est: 28 -> 0.0
+roc Auc Desv. Est: 28 -> 0.0
+loss Desv. Est: 28 -> 0.006544300909888515
+
+EPOCH and Lr 29: -> 30/0.3
+accuracy promedio 29: -> 0.7943223443223443
+precision promedio 29: -> 0.7943223443223443
+recall promedio 29: -> 1.0
+roc Auc promedio 29: -> 0.5
+Loss promedio 29: -> 0.5307677991669963
+accuracy Desv. Est 29: -> 0.013649706938294055
+precision Desv. Est 29: -> 0.013649706938294055
+recall Desv. Est: 29 -> 0.0
+roc Auc Desv. Est: 29 -> 0.0
+loss Desv. Est: 29 -> 0.006208729901564431
+
+EPOCH and Lr 30: -> 30/0.5
+accuracy promedio 30: -> 0.7943223443223443
+precision promedio 30: -> 0.7943223443223443
+recall promedio 30: -> 1.0
+roc Auc promedio 30: -> 0.5
+Loss promedio 30: -> 0.5268357749871102
+accuracy Desv. Est 30: -> 0.013649706938294055
+precision Desv. Est 30: -> 0.013649706938294055
+recall Desv. Est: 30 -> 0.0
+roc Auc Desv. Est: 30 -> 0.0
+loss Desv. Est: 30 -> 0.005865513624089101
+
+Higher AUC of the model: -> 0.5
+
+
+
+3rd Configuration NN:
+Configuraciones: -> Topología
+capas Ocultas: -> (24, 16, 8, 2)
+función de Activación: -> tanh
+configuraciones: -> Hiperparámetros
+
+EPOCH and Lr 1: -> 5/0.01
+accuracy promedio 1: -> 0.7726190476190475
+precision promedio 1: -> 0.7939290534027375
+recall promedio 1: -> 0.9634199134199134
+roc Auc promedio 1: -> 0.622085137085137
+Loss promedio 1: -> 0.5103275131763224
+accuracy Desv. Est 1: -> 0.05706637108222133
+precision Desv. Est 1: -> 0.012901507287517587
+recall Desv. Est: 1 -> 0.0949348280535476
+roc Auc Desv. Est: 1 -> 0.2109411483839929
+loss Desv. Est: 1 -> 0.024427236511405475
+
+EPOCH and Lr 2: -> 5/0.05
+accuracy promedio 2: -> 0.7943223443223443
+precision promedio 2: -> 0.7943223443223443
+recall promedio 2: -> 1.0
+roc Auc promedio 2: -> 0.757994227994228
+Loss promedio 2: -> 0.49055096669459247
+accuracy Desv. Est 2: -> 0.013649706938294055
+precision Desv. Est 2: -> 0.013649706938294055
+recall Desv. Est: 2 -> 0.0
+roc Auc Desv. Est: 2 -> 0.12054652512347055
+loss Desv. Est: 2 -> 0.01459642078254697
+
+EPOCH and Lr 3: -> 5/0.1
+accuracy promedio 3: -> 0.7943223443223443
+precision promedio 3: -> 0.7943223443223443
+recall promedio 3: -> 1.0
+roc Auc promedio 3: -> 0.7587229437229437
+Loss promedio 3: -> 0.5007230266467306
+accuracy Desv. Est 3: -> 0.013649706938294055
+precision Desv. Est 3: -> 0.013649706938294055
+recall Desv. Est: 3 -> 0.0
+roc Auc Desv. Est: 3 -> 0.11617152158568117
+loss Desv. Est: 3 -> 0.004935651577429285
+
+EPOCH and Lr 4: -> 5/0.3
+accuracy promedio 4: -> 0.7943223443223443
+precision promedio 4: -> 0.7943223443223443
+recall promedio 4: -> 1.0
+roc Auc promedio 4: -> 0.6267532467532468
+Loss promedio 4: -> 0.5117759891576477
+accuracy Desv. Est 4: -> 0.013649706938294055
+precision Desv. Est 4: -> 0.013649706938294055
+recall Desv. Est: 4 -> 0.0
+roc Auc Desv. Est: 4 -> 0.13064342805723186
+loss Desv. Est: 4 -> 0.004792925446580336
+
+EPOCH and Lr 5: -> 5/0.5
+accuracy promedio 5: -> 0.7943223443223443
+precision promedio 5: -> 0.7943223443223443
+recall promedio 5: -> 1.0
+roc Auc promedio 5: -> 0.7276695526695526
+Loss promedio 5: -> 0.5139479214719245
+accuracy Desv. Est 5: -> 0.013649706938294055
+precision Desv. Est 5: -> 0.013649706938294055
+recall Desv. Est: 5 -> 0.0
+roc Auc Desv. Est: 5 -> 0.12007659401295519
+loss Desv. Est: 5 -> 0.003058370870447884
+
+EPOCH and Lr 6: -> 10/0.01
+accuracy promedio 6: -> 0.7726190476190475
+precision promedio 6: -> 0.7939290534027375
+recall promedio 6: -> 0.9634199134199134
+roc Auc promedio 6: -> 0.622085137085137
+Loss promedio 6: -> 0.5103275131763224
+accuracy Desv. Est 6: -> 0.05706637108222133
+precision Desv. Est 6: -> 0.012901507287517587
+recall Desv. Est: 6 -> 0.0949348280535476
+roc Auc Desv. Est: 6 -> 0.2109411483839929
+loss Desv. Est: 6 -> 0.024427236511405475
+
+EPOCH and Lr 7: -> 10/0.05
+accuracy promedio 7: -> 0.7943223443223443
+precision promedio 7: -> 0.7943223443223443
+recall promedio 7: -> 1.0
+roc Auc promedio 7: -> 0.757994227994228
+Loss promedio 7: -> 0.49055096669459247
+accuracy Desv. Est 7: -> 0.013649706938294055
+precision Desv. Est 7: -> 0.013649706938294055
+recall Desv. Est: 7 -> 0.0
+roc Auc Desv. Est: 7 -> 0.12054652512347055
+loss Desv. Est: 7 -> 0.01459642078254697
+
+EPOCH and Lr 8: -> 10/0.1
+accuracy promedio 8: -> 0.7943223443223443
+precision promedio 8: -> 0.7943223443223443
+recall promedio 8: -> 1.0
+roc Auc promedio 8: -> 0.7587229437229437
+Loss promedio 8: -> 0.5007230266467306
+accuracy Desv. Est 8: -> 0.013649706938294055
+precision Desv. Est 8: -> 0.013649706938294055
+recall Desv. Est: 8 -> 0.0
+roc Auc Desv. Est: 8 -> 0.11617152158568117
+loss Desv. Est: 8 -> 0.004935651577429285
+
+EPOCH and Lr 9: -> 10/0.3
+accuracy promedio 9: -> 0.7943223443223443
+precision promedio 9: -> 0.7943223443223443
+recall promedio 9: -> 1.0
+roc Auc promedio 9: -> 0.6267532467532468
+Loss promedio 9: -> 0.5117759891576477
+accuracy Desv. Est 9: -> 0.013649706938294055
+precision Desv. Est 9: -> 0.013649706938294055
+recall Desv. Est: 9 -> 0.0
+roc Auc Desv. Est: 9 -> 0.13064342805723186
+loss Desv. Est: 9 -> 0.004792925446580336
+
+EPOCH and Lr 10: -> 10/0.5
+accuracy promedio 10: -> 0.7943223443223443
+precision promedio 10: -> 0.7943223443223443
+recall promedio 10: -> 1.0
+roc Auc promedio 10: -> 0.7276695526695526
+Loss promedio 10: -> 0.5139479214719245
+accuracy Desv. Est 10: -> 0.013649706938294055
+precision Desv. Est 10: -> 0.013649706938294055
+recall Desv. Est: 10 -> 0.0
+roc Auc Desv. Est: 10 -> 0.12007659401295519
+loss Desv. Est: 10 -> 0.003058370870447884
+
+EPOCH and Lr 11: -> 15/0.01
+accuracy promedio 11: -> 0.7726190476190475
+precision promedio 11: -> 0.7939290534027375
+recall promedio 11: -> 0.9634199134199134
+roc Auc promedio 11: -> 0.622085137085137
+Loss promedio 11: -> 0.5103275131763224
+accuracy Desv. Est 11: -> 0.05706637108222133
+precision Desv. Est 11: -> 0.012901507287517587
+recall Desv. Est: 11 -> 0.0949348280535476
+roc Auc Desv. Est: 11 -> 0.2109411483839929
+loss Desv. Est: 11 -> 0.024427236511405475
+
+EPOCH and Lr 12: -> 15/0.05
+accuracy promedio 12: -> 0.7943223443223443
+precision promedio 12: -> 0.7943223443223443
+recall promedio 12: -> 1.0
+roc Auc promedio 12: -> 0.757994227994228
+Loss promedio 12: -> 0.49055096669459247
+accuracy Desv. Est 12: -> 0.013649706938294055
+precision Desv. Est 12: -> 0.013649706938294055
+recall Desv. Est: 12 -> 0.0
+roc Auc Desv. Est: 12 -> 0.12054652512347055
+loss Desv. Est: 12 -> 0.01459642078254697
+
+EPOCH and Lr 13: -> 15/0.1
+accuracy promedio 13: -> 0.7943223443223443
+precision promedio 13: -> 0.7943223443223443
+recall promedio 13: -> 1.0
+roc Auc promedio 13: -> 0.7587229437229437
+Loss promedio 13: -> 0.5007230266467306
+accuracy Desv. Est 13: -> 0.013649706938294055
+precision Desv. Est 13: -> 0.013649706938294055
+recall Desv. Est: 13 -> 0.0
+roc Auc Desv. Est: 13 -> 0.11617152158568117
+loss Desv. Est: 13 -> 0.004935651577429285
+
+EPOCH and Lr 14: -> 15/0.3
+accuracy promedio 14: -> 0.7943223443223443
+precision promedio 14: -> 0.7943223443223443
+recall promedio 14: -> 1.0
+roc Auc promedio 14: -> 0.6267532467532468
+Loss promedio 14: -> 0.5117759891576477
+accuracy Desv. Est 14: -> 0.013649706938294055
+precision Desv. Est 14: -> 0.013649706938294055
+recall Desv. Est: 14 -> 0.0
+roc Auc Desv. Est: 14 -> 0.13064342805723186
+loss Desv. Est: 14 -> 0.004792925446580336
+
+EPOCH and Lr 15: -> 15/0.5
+accuracy promedio 15: -> 0.7943223443223443
+precision promedio 15: -> 0.7943223443223443
+recall promedio 15: -> 1.0
+roc Auc promedio 15: -> 0.7276695526695526
+Loss promedio 15: -> 0.5139479214719245
+accuracy Desv. Est 15: -> 0.013649706938294055
+precision Desv. Est 15: -> 0.013649706938294055
+recall Desv. Est: 15 -> 0.0
+roc Auc Desv. Est: 15 -> 0.12007659401295519
+loss Desv. Est: 15 -> 0.003058370870447884
+
+EPOCH and Lr 16: -> 20/0.01
+accuracy promedio 16: -> 0.7726190476190475
+precision promedio 16: -> 0.7939290534027375
+recall promedio 16: -> 0.9634199134199134
+roc Auc promedio 16: -> 0.622085137085137
+Loss promedio 16: -> 0.5103275131763224
+accuracy Desv. Est 16: -> 0.05706637108222133
+precision Desv. Est 16: -> 0.012901507287517587
+recall Desv. Est: 16 -> 0.0949348280535476
+roc Auc Desv. Est: 16 -> 0.2109411483839929
+loss Desv. Est: 16 -> 0.024427236511405475
+
+EPOCH and Lr 17: -> 20/0.05
+accuracy promedio 17: -> 0.7943223443223443
+precision promedio 17: -> 0.7943223443223443
+recall promedio 17: -> 1.0
+roc Auc promedio 17: -> 0.757994227994228
+Loss promedio 17: -> 0.49055096669459247
+accuracy Desv. Est 17: -> 0.013649706938294055
+precision Desv. Est 17: -> 0.013649706938294055
+recall Desv. Est: 17 -> 0.0
+roc Auc Desv. Est: 17 -> 0.12054652512347055
+loss Desv. Est: 17 -> 0.01459642078254697
+
+EPOCH and Lr 18: -> 20/0.1
+accuracy promedio 18: -> 0.7943223443223443
+precision promedio 18: -> 0.7943223443223443
+recall promedio 18: -> 1.0
+roc Auc promedio 18: -> 0.7587229437229437
+Loss promedio 18: -> 0.5007230266467306
+accuracy Desv. Est 18: -> 0.013649706938294055
+precision Desv. Est 18: -> 0.013649706938294055
+recall Desv. Est: 18 -> 0.0
+roc Auc Desv. Est: 18 -> 0.11617152158568117
+loss Desv. Est: 18 -> 0.004935651577429285
+
+EPOCH and Lr 19: -> 20/0.3
+accuracy promedio 19: -> 0.7943223443223443
+precision promedio 19: -> 0.7943223443223443
+recall promedio 19: -> 1.0
+roc Auc promedio 19: -> 0.6267532467532468
+Loss promedio 19: -> 0.5117759891576477
+accuracy Desv. Est 19: -> 0.013649706938294055
+precision Desv. Est 19: -> 0.013649706938294055
+recall Desv. Est: 19 -> 0.0
+roc Auc Desv. Est: 19 -> 0.13064342805723186
+loss Desv. Est: 19 -> 0.004792925446580336
+
+EPOCH and Lr 20: -> 20/0.5
+accuracy promedio 20: -> 0.7943223443223443
+precision promedio 20: -> 0.7943223443223443
+recall promedio 20: -> 1.0
+roc Auc promedio 20: -> 0.7276695526695526
+Loss promedio 20: -> 0.5139479214719245
+accuracy Desv. Est 20: -> 0.013649706938294055
+precision Desv. Est 20: -> 0.013649706938294055
+recall Desv. Est: 20 -> 0.0
+roc Auc Desv. Est: 20 -> 0.12007659401295519
+loss Desv. Est: 20 -> 0.003058370870447884
+
+EPOCH and Lr 21: -> 25/0.01
+accuracy promedio 21: -> 0.7726190476190475
+precision promedio 21: -> 0.7939290534027375
+recall promedio 21: -> 0.9634199134199134
+roc Auc promedio 21: -> 0.622085137085137
+Loss promedio 21: -> 0.5103275131763224
+accuracy Desv. Est 21: -> 0.05706637108222133
+precision Desv. Est 21: -> 0.012901507287517587
+recall Desv. Est: 21 -> 0.0949348280535476
+roc Auc Desv. Est: 21 -> 0.2109411483839929
+loss Desv. Est: 21 -> 0.024427236511405475
+
+EPOCH and Lr 22: -> 25/0.05
+accuracy promedio 22: -> 0.7943223443223443
+precision promedio 22: -> 0.7943223443223443
+recall promedio 22: -> 1.0
+roc Auc promedio 22: -> 0.757994227994228
+Loss promedio 22: -> 0.49055096669459247
+accuracy Desv. Est 22: -> 0.013649706938294055
+precision Desv. Est 22: -> 0.013649706938294055
+recall Desv. Est: 22 -> 0.0
+roc Auc Desv. Est: 22 -> 0.12054652512347055
+loss Desv. Est: 22 -> 0.01459642078254697
+
+EPOCH and Lr 23: -> 25/0.1
+accuracy promedio 23: -> 0.7943223443223443
+precision promedio 23: -> 0.7943223443223443
+recall promedio 23: -> 1.0
+roc Auc promedio 23: -> 0.7587229437229437
+Loss promedio 23: -> 0.5007230266467306
+accuracy Desv. Est 23: -> 0.013649706938294055
+precision Desv. Est 23: -> 0.013649706938294055
+recall Desv. Est: 23 -> 0.0
+roc Auc Desv. Est: 23 -> 0.11617152158568117
+loss Desv. Est: 23 -> 0.004935651577429285
+
+EPOCH and Lr 24: -> 25/0.3
+accuracy promedio 24: -> 0.7943223443223443
+precision promedio 24: -> 0.7943223443223443
+recall promedio 24: -> 1.0
+roc Auc promedio 24: -> 0.6267532467532468
+Loss promedio 24: -> 0.5117759891576477
+accuracy Desv. Est 24: -> 0.013649706938294055
+precision Desv. Est 24: -> 0.013649706938294055
+recall Desv. Est: 24 -> 0.0
+roc Auc Desv. Est: 24 -> 0.13064342805723186
+loss Desv. Est: 24 -> 0.004792925446580336
+
+EPOCH and Lr 25: -> 25/0.5
+accuracy promedio 25: -> 0.7943223443223443
+precision promedio 25: -> 0.7943223443223443
+recall promedio 25: -> 1.0
+roc Auc promedio 25: -> 0.7276695526695526
+Loss promedio 25: -> 0.5139479214719245
+accuracy Desv. Est 25: -> 0.013649706938294055
+precision Desv. Est 25: -> 0.013649706938294055
+recall Desv. Est: 25 -> 0.0
+roc Auc Desv. Est: 25 -> 0.12007659401295519
+loss Desv. Est: 25 -> 0.003058370870447884
+
+EPOCH and Lr 26: -> 30/0.01
+accuracy promedio 26: -> 0.7726190476190475
+precision promedio 26: -> 0.7939290534027375
+recall promedio 26: -> 0.9634199134199134
+roc Auc promedio 26: -> 0.622085137085137
+Loss promedio 26: -> 0.5103275131763224
+accuracy Desv. Est 26: -> 0.05706637108222133
+precision Desv. Est 26: -> 0.012901507287517587
+recall Desv. Est: 26 -> 0.0949348280535476
+roc Auc Desv. Est: 26 -> 0.2109411483839929
+loss Desv. Est: 26 -> 0.024427236511405475
+
+EPOCH and Lr 27: -> 30/0.05
+accuracy promedio 27: -> 0.7943223443223443
+precision promedio 27: -> 0.7943223443223443
+recall promedio 27: -> 1.0
+roc Auc promedio 27: -> 0.757994227994228
+Loss promedio 27: -> 0.49055096669459247
+accuracy Desv. Est 27: -> 0.013649706938294055
+precision Desv. Est 27: -> 0.013649706938294055
+recall Desv. Est: 27 -> 0.0
+roc Auc Desv. Est: 27 -> 0.12054652512347055
+loss Desv. Est: 27 -> 0.01459642078254697
+
+EPOCH and Lr 28: -> 30/0.1
+accuracy promedio 28: -> 0.7943223443223443
+precision promedio 28: -> 0.7943223443223443
+recall promedio 28: -> 1.0
+roc Auc promedio 28: -> 0.7587229437229437
+Loss promedio 28: -> 0.5007230266467306
+accuracy Desv. Est 28: -> 0.013649706938294055
+precision Desv. Est 28: -> 0.013649706938294055
+recall Desv. Est: 28 -> 0.0
+roc Auc Desv. Est: 28 -> 0.11617152158568117
+loss Desv. Est: 28 -> 0.004935651577429285
+
+EPOCH and Lr 29: -> 30/0.3
+accuracy promedio 29: -> 0.7943223443223443
+precision promedio 29: -> 0.7943223443223443
+recall promedio 29: -> 1.0
+roc Auc promedio 29: -> 0.6267532467532468
+Loss promedio 29: -> 0.5117759891576477
+accuracy Desv. Est 29: -> 0.013649706938294055
+precision Desv. Est 29: -> 0.013649706938294055
+recall Desv. Est: 29 -> 0.0
+roc Auc Desv. Est: 29 -> 0.13064342805723186
+loss Desv. Est: 29 -> 0.004792925446580336
+
+EPOCH and Lr 30: -> 30/0.5
+accuracy promedio 30: -> 0.7943223443223443
+precision promedio 30: -> 0.7943223443223443
+recall promedio 30: -> 1.0
+roc Auc promedio 30: -> 0.7276695526695526
+Loss promedio 30: -> 0.5139479214719245
+accuracy Desv. Est 30: -> 0.013649706938294055
+precision Desv. Est 30: -> 0.013649706938294055
+recall Desv. Est: 30 -> 0.0
+roc Auc Desv. Est: 30 -> 0.12007659401295519
+loss Desv. Est: 30 -> 0.003058370870447884
+
+Higher AUC of the model: -> 0.7587229437229437
+
+
+
+4th Configuration NN:
+Configuraciones: -> Topología
+capas Ocultas: -> (36, 20, 6)
+función de Activación: -> relu
+configuraciones: -> Hiperparámetros
+
+EPOCH and Lr 1: -> 5/0.01
+accuracy promedio 1: -> 0.7943223443223443
+precision promedio 1: -> 0.7943223443223443
+recall promedio 1: -> 1.0
+roc Auc promedio 1: -> 0.696031746031746
+Loss promedio 1: -> 0.49680039457551556
+accuracy Desv. Est 1: -> 0.013649706938294055
+precision Desv. Est 1: -> 0.013649706938294055
+recall Desv. Est: 1 -> 0.0
+roc Auc Desv. Est: 1 -> 0.1397410450145511
+loss Desv. Est: 1 -> 0.010010479080197863
+
+EPOCH and Lr 2: -> 5/0.05
+accuracy promedio 2: -> 0.7907509157509156
+precision promedio 2: -> 0.7935286935286935
+recall promedio 2: -> 0.9954545454545455
+roc Auc promedio 2: -> 0.7517604617604617
+Loss promedio 2: -> 0.48026491168316
+accuracy Desv. Est 2: -> 0.019041968143639044
+precision Desv. Est 2: -> 0.0143403981407014
+recall Desv. Est: 2 -> 0.013636363636363624
+roc Auc Desv. Est: 2 -> 0.0858327061533564
+loss Desv. Est: 2 -> 0.008799648731123577
+
+EPOCH and Lr 3: -> 5/0.1
+accuracy promedio 3: -> 0.7943223443223443
+precision promedio 3: -> 0.7943223443223443
+recall promedio 3: -> 1.0
+roc Auc promedio 3: -> 0.6862121212121213
+Loss promedio 3: -> 0.4931168185597777
+accuracy Desv. Est 3: -> 0.013649706938294055
+precision Desv. Est 3: -> 0.013649706938294055
+recall Desv. Est: 3 -> 0.0
+roc Auc Desv. Est: 3 -> 0.07201377060433757
+loss Desv. Est: 3 -> 0.006203890346032341
+
+EPOCH and Lr 4: -> 5/0.3
+accuracy promedio 4: -> 0.7943223443223443
+precision promedio 4: -> 0.7943223443223443
+recall promedio 4: -> 1.0
+roc Auc promedio 4: -> 0.6557503607503608
+Loss promedio 4: -> 0.5203260891765773
+accuracy Desv. Est 4: -> 0.013649706938294055
+precision Desv. Est 4: -> 0.013649706938294055
+recall Desv. Est: 4 -> 0.0
+roc Auc Desv. Est: 4 -> 0.12427622396482953
+loss Desv. Est: 4 -> 0.0048873053410932645
+
+EPOCH and Lr 5: -> 5/0.5
+accuracy promedio 5: -> 0.7943223443223443
+precision promedio 5: -> 0.7943223443223443
+recall promedio 5: -> 1.0
+roc Auc promedio 5: -> 0.5391558441558442
+Loss promedio 5: -> 0.5438974679774042
+accuracy Desv. Est 5: -> 0.013649706938294055
+precision Desv. Est 5: -> 0.013649706938294055
+recall Desv. Est: 5 -> 0.0
+roc Auc Desv. Est: 5 -> 0.06552234071759186
+loss Desv. Est: 5 -> 0.029144299311389645
+
+EPOCH and Lr 6: -> 10/0.01
+accuracy promedio 6: -> 0.7943223443223443
+precision promedio 6: -> 0.7943223443223443
+recall promedio 6: -> 1.0
+roc Auc promedio 6: -> 0.696031746031746
+Loss promedio 6: -> 0.49680039457551556
+accuracy Desv. Est 6: -> 0.013649706938294055
+precision Desv. Est 6: -> 0.013649706938294055
+recall Desv. Est: 6 -> 0.0
+roc Auc Desv. Est: 6 -> 0.1397410450145511
+loss Desv. Est: 6 -> 0.010010479080197863
+
+EPOCH and Lr 7: -> 10/0.05
+accuracy promedio 7: -> 0.7907509157509156
+precision promedio 7: -> 0.7935286935286935
+recall promedio 7: -> 0.9954545454545455
+roc Auc promedio 7: -> 0.7517604617604617
+Loss promedio 7: -> 0.48026491168316
+accuracy Desv. Est 7: -> 0.019041968143639044
+precision Desv. Est 7: -> 0.0143403981407014
+recall Desv. Est: 7 -> 0.013636363636363624
+roc Auc Desv. Est: 7 -> 0.0858327061533564
+loss Desv. Est: 7 -> 0.008799648731123577
+
+EPOCH and Lr 8: -> 10/0.1
+accuracy promedio 8: -> 0.7943223443223443
+precision promedio 8: -> 0.7943223443223443
+recall promedio 8: -> 1.0
+roc Auc promedio 8: -> 0.6862121212121213
+Loss promedio 8: -> 0.4931168185597777
+accuracy Desv. Est 8: -> 0.013649706938294055
+precision Desv. Est 8: -> 0.013649706938294055
+recall Desv. Est: 8 -> 0.0
+roc Auc Desv. Est: 8 -> 0.07201377060433757
+loss Desv. Est: 8 -> 0.006203890346032341
+
+EPOCH and Lr 9: -> 10/0.3
+accuracy promedio 9: -> 0.7943223443223443
+precision promedio 9: -> 0.7943223443223443
+recall promedio 9: -> 1.0
+roc Auc promedio 9: -> 0.6557503607503608
+Loss promedio 9: -> 0.5203260891765773
+accuracy Desv. Est 9: -> 0.013649706938294055
+precision Desv. Est 9: -> 0.013649706938294055
+recall Desv. Est: 9 -> 0.0
+roc Auc Desv. Est: 9 -> 0.12427622396482953
+loss Desv. Est: 9 -> 0.0048873053410932645
+
+EPOCH and Lr 10: -> 10/0.5
+accuracy promedio 10: -> 0.7943223443223443
+precision promedio 10: -> 0.7943223443223443
+recall promedio 10: -> 1.0
+roc Auc promedio 10: -> 0.5391558441558442
+Loss promedio 10: -> 0.5438974679774042
+accuracy Desv. Est 10: -> 0.013649706938294055
+precision Desv. Est 10: -> 0.013649706938294055
+recall Desv. Est: 10 -> 0.0
+roc Auc Desv. Est: 10 -> 0.06552234071759186
+loss Desv. Est: 10 -> 0.029144299311389645
+
+EPOCH and Lr 11: -> 15/0.01
+accuracy promedio 11: -> 0.7943223443223443
+precision promedio 11: -> 0.7943223443223443
+recall promedio 11: -> 1.0
+roc Auc promedio 11: -> 0.696031746031746
+Loss promedio 11: -> 0.49680039457551556
+accuracy Desv. Est 11: -> 0.013649706938294055
+precision Desv. Est 11: -> 0.013649706938294055
+recall Desv. Est: 11 -> 0.0
+roc Auc Desv. Est: 11 -> 0.1397410450145511
+loss Desv. Est: 11 -> 0.010010479080197863
+
+EPOCH and Lr 12: -> 15/0.05
+accuracy promedio 12: -> 0.7907509157509156
+precision promedio 12: -> 0.7935286935286935
+recall promedio 12: -> 0.9954545454545455
+roc Auc promedio 12: -> 0.7517604617604617
+Loss promedio 12: -> 0.48026491168316
+accuracy Desv. Est 12: -> 0.019041968143639044
+precision Desv. Est 12: -> 0.0143403981407014
+recall Desv. Est: 12 -> 0.013636363636363624
+roc Auc Desv. Est: 12 -> 0.0858327061533564
+loss Desv. Est: 12 -> 0.008799648731123577
+
+EPOCH and Lr 13: -> 15/0.1
+accuracy promedio 13: -> 0.7943223443223443
+precision promedio 13: -> 0.7943223443223443
+recall promedio 13: -> 1.0
+roc Auc promedio 13: -> 0.6862121212121213
+Loss promedio 13: -> 0.4931168185597777
+accuracy Desv. Est 13: -> 0.013649706938294055
+precision Desv. Est 13: -> 0.013649706938294055
+recall Desv. Est: 13 -> 0.0
+roc Auc Desv. Est: 13 -> 0.07201377060433757
+loss Desv. Est: 13 -> 0.006203890346032341
+
+EPOCH and Lr 14: -> 15/0.3
+accuracy promedio 14: -> 0.7943223443223443
+precision promedio 14: -> 0.7943223443223443
+recall promedio 14: -> 1.0
+roc Auc promedio 14: -> 0.6557503607503608
+Loss promedio 14: -> 0.5203260891765773
+accuracy Desv. Est 14: -> 0.013649706938294055
+precision Desv. Est 14: -> 0.013649706938294055
+recall Desv. Est: 14 -> 0.0
+roc Auc Desv. Est: 14 -> 0.12427622396482953
+loss Desv. Est: 14 -> 0.0048873053410932645
+
+EPOCH and Lr 15: -> 15/0.5
+accuracy promedio 15: -> 0.7943223443223443
+precision promedio 15: -> 0.7943223443223443
+recall promedio 15: -> 1.0
+roc Auc promedio 15: -> 0.5391558441558442
+Loss promedio 15: -> 0.5438974679774042
+accuracy Desv. Est 15: -> 0.013649706938294055
+precision Desv. Est 15: -> 0.013649706938294055
+recall Desv. Est: 15 -> 0.0
+roc Auc Desv. Est: 15 -> 0.06552234071759186
+loss Desv. Est: 15 -> 0.029144299311389645
+
+EPOCH and Lr 16: -> 20/0.01
+accuracy promedio 16: -> 0.7943223443223443
+precision promedio 16: -> 0.7943223443223443
+recall promedio 16: -> 1.0
+roc Auc promedio 16: -> 0.696031746031746
+Loss promedio 16: -> 0.49680039457551556
+accuracy Desv. Est 16: -> 0.013649706938294055
+precision Desv. Est 16: -> 0.013649706938294055
+recall Desv. Est: 16 -> 0.0
+roc Auc Desv. Est: 16 -> 0.1397410450145511
+loss Desv. Est: 16 -> 0.010010479080197863
+
+EPOCH and Lr 17: -> 20/0.05
+accuracy promedio 17: -> 0.7907509157509156
+precision promedio 17: -> 0.7935286935286935
+recall promedio 17: -> 0.9954545454545455
+roc Auc promedio 17: -> 0.7517604617604617
+Loss promedio 17: -> 0.48026491168316
+accuracy Desv. Est 17: -> 0.019041968143639044
+precision Desv. Est 17: -> 0.0143403981407014
+recall Desv. Est: 17 -> 0.013636363636363624
+roc Auc Desv. Est: 17 -> 0.0858327061533564
+loss Desv. Est: 17 -> 0.008799648731123577
+
+EPOCH and Lr 18: -> 20/0.1
+accuracy promedio 18: -> 0.7943223443223443
+precision promedio 18: -> 0.7943223443223443
+recall promedio 18: -> 1.0
+roc Auc promedio 18: -> 0.6862121212121213
+Loss promedio 18: -> 0.4931168185597777
+accuracy Desv. Est 18: -> 0.013649706938294055
+precision Desv. Est 18: -> 0.013649706938294055
+recall Desv. Est: 18 -> 0.0
+roc Auc Desv. Est: 18 -> 0.07201377060433757
+loss Desv. Est: 18 -> 0.006203890346032341
+
+EPOCH and Lr 19: -> 20/0.3
+accuracy promedio 19: -> 0.7943223443223443
+precision promedio 19: -> 0.7943223443223443
+recall promedio 19: -> 1.0
+roc Auc promedio 19: -> 0.6557503607503608
+Loss promedio 19: -> 0.5203260891765773
+accuracy Desv. Est 19: -> 0.013649706938294055
+precision Desv. Est 19: -> 0.013649706938294055
+recall Desv. Est: 19 -> 0.0
+roc Auc Desv. Est: 19 -> 0.12427622396482953
+loss Desv. Est: 19 -> 0.0048873053410932645
+
+EPOCH and Lr 20: -> 20/0.5
+accuracy promedio 20: -> 0.7943223443223443
+precision promedio 20: -> 0.7943223443223443
+recall promedio 20: -> 1.0
+roc Auc promedio 20: -> 0.5391558441558442
+Loss promedio 20: -> 0.5438974679774042
+accuracy Desv. Est 20: -> 0.013649706938294055
+precision Desv. Est 20: -> 0.013649706938294055
+recall Desv. Est: 20 -> 0.0
+roc Auc Desv. Est: 20 -> 0.06552234071759186
+loss Desv. Est: 20 -> 0.029144299311389645
+
+EPOCH and Lr 21: -> 25/0.01
+accuracy promedio 21: -> 0.7943223443223443
+precision promedio 21: -> 0.7943223443223443
+recall promedio 21: -> 1.0
+roc Auc promedio 21: -> 0.696031746031746
+Loss promedio 21: -> 0.49680039457551556
+accuracy Desv. Est 21: -> 0.013649706938294055
+precision Desv. Est 21: -> 0.013649706938294055
+recall Desv. Est: 21 -> 0.0
+roc Auc Desv. Est: 21 -> 0.1397410450145511
+loss Desv. Est: 21 -> 0.010010479080197863
+
+EPOCH and Lr 22: -> 25/0.05
+accuracy promedio 22: -> 0.7907509157509156
+precision promedio 22: -> 0.7935286935286935
+recall promedio 22: -> 0.9954545454545455
+roc Auc promedio 22: -> 0.7517604617604617
+Loss promedio 22: -> 0.48026491168316
+accuracy Desv. Est 22: -> 0.019041968143639044
+precision Desv. Est 22: -> 0.0143403981407014
+recall Desv. Est: 22 -> 0.013636363636363624
+roc Auc Desv. Est: 22 -> 0.0858327061533564
+loss Desv. Est: 22 -> 0.008799648731123577
+
+EPOCH and Lr 23: -> 25/0.1
+accuracy promedio 23: -> 0.7943223443223443
+precision promedio 23: -> 0.7943223443223443
+recall promedio 23: -> 1.0
+roc Auc promedio 23: -> 0.6862121212121213
+Loss promedio 23: -> 0.4931168185597777
+accuracy Desv. Est 23: -> 0.013649706938294055
+precision Desv. Est 23: -> 0.013649706938294055
+recall Desv. Est: 23 -> 0.0
+roc Auc Desv. Est: 23 -> 0.07201377060433757
+loss Desv. Est: 23 -> 0.006203890346032341
+
+EPOCH and Lr 24: -> 25/0.3
+accuracy promedio 24: -> 0.7943223443223443
+precision promedio 24: -> 0.7943223443223443
+recall promedio 24: -> 1.0
+roc Auc promedio 24: -> 0.6557503607503608
+Loss promedio 24: -> 0.5203260891765773
+accuracy Desv. Est 24: -> 0.013649706938294055
+precision Desv. Est 24: -> 0.013649706938294055
+recall Desv. Est: 24 -> 0.0
+roc Auc Desv. Est: 24 -> 0.12427622396482953
+loss Desv. Est: 24 -> 0.0048873053410932645
+
+EPOCH and Lr 25: -> 25/0.5
+accuracy promedio 25: -> 0.7943223443223443
+precision promedio 25: -> 0.7943223443223443
+recall promedio 25: -> 1.0
+roc Auc promedio 25: -> 0.5391558441558442
+Loss promedio 25: -> 0.5438974679774042
+accuracy Desv. Est 25: -> 0.013649706938294055
+precision Desv. Est 25: -> 0.013649706938294055
+recall Desv. Est: 25 -> 0.0
+roc Auc Desv. Est: 25 -> 0.06552234071759186
+loss Desv. Est: 25 -> 0.029144299311389645
+
+EPOCH and Lr 26: -> 30/0.01
+accuracy promedio 26: -> 0.7943223443223443
+precision promedio 26: -> 0.7943223443223443
+recall promedio 26: -> 1.0
+roc Auc promedio 26: -> 0.696031746031746
+Loss promedio 26: -> 0.49680039457551556
+accuracy Desv. Est 26: -> 0.013649706938294055
+precision Desv. Est 26: -> 0.013649706938294055
+recall Desv. Est: 26 -> 0.0
+roc Auc Desv. Est: 26 -> 0.1397410450145511
+loss Desv. Est: 26 -> 0.010010479080197863
+
+EPOCH and Lr 27: -> 30/0.05
+accuracy promedio 27: -> 0.7907509157509156
+precision promedio 27: -> 0.7935286935286935
+recall promedio 27: -> 0.9954545454545455
+roc Auc promedio 27: -> 0.7517604617604617
+Loss promedio 27: -> 0.48026491168316
+accuracy Desv. Est 27: -> 0.019041968143639044
+precision Desv. Est 27: -> 0.0143403981407014
+recall Desv. Est: 27 -> 0.013636363636363624
+roc Auc Desv. Est: 27 -> 0.0858327061533564
+loss Desv. Est: 27 -> 0.008799648731123577
+
+EPOCH and Lr 28: -> 30/0.1
+accuracy promedio 28: -> 0.7943223443223443
+precision promedio 28: -> 0.7943223443223443
+recall promedio 28: -> 1.0
+roc Auc promedio 28: -> 0.6862121212121213
+Loss promedio 28: -> 0.4931168185597777
+accuracy Desv. Est 28: -> 0.013649706938294055
+precision Desv. Est 28: -> 0.013649706938294055
+recall Desv. Est: 28 -> 0.0
+roc Auc Desv. Est: 28 -> 0.07201377060433757
+loss Desv. Est: 28 -> 0.006203890346032341
+
+EPOCH and Lr 29: -> 30/0.3
+accuracy promedio 29: -> 0.7943223443223443
+precision promedio 29: -> 0.7943223443223443
+recall promedio 29: -> 1.0
+roc Auc promedio 29: -> 0.6557503607503608
+Loss promedio 29: -> 0.5203260891765773
+accuracy Desv. Est 29: -> 0.013649706938294055
+precision Desv. Est 29: -> 0.013649706938294055
+recall Desv. Est: 29 -> 0.0
+roc Auc Desv. Est: 29 -> 0.12427622396482953
+loss Desv. Est: 29 -> 0.0048873053410932645
+
+EPOCH and Lr 30: -> 30/0.5
+accuracy promedio 30: -> 0.7943223443223443
+precision promedio 30: -> 0.7943223443223443
+recall promedio 30: -> 1.0
+roc Auc promedio 30: -> 0.5391558441558442
+Loss promedio 30: -> 0.5438974679774042
+accuracy Desv. Est 30: -> 0.013649706938294055
+precision Desv. Est 30: -> 0.013649706938294055
+recall Desv. Est: 30 -> 0.0
+roc Auc Desv. Est: 30 -> 0.06552234071759186
+loss Desv. Est: 30 -> 0.029144299311389645
+
+Higher AUC of the model: -> 0.7517604617604617
+
+
+
+5th Configuration NN:
+Configuraciones: -> Topología
+capas Ocultas: -> (44, 20)
+función de Activación: -> tanh
+configuraciones: -> Hiperparámetros
+
+EPOCH and Lr 1: -> 5/0.01
+accuracy promedio 1: -> 0.7904761904761904
+precision promedio 1: -> 0.7935531135531135
+recall promedio 1: -> 0.9952380952380953
+roc Auc promedio 1: -> 0.7563636363636363
+Loss promedio 1: -> 0.4757478919900919
+accuracy Desv. Est 1: -> 0.014717497141131965
+precision Desv. Est 1: -> 0.013079402466204901
+recall Desv. Est: 1 -> 0.014285714285714301
+roc Auc Desv. Est: 1 -> 0.084583482713069
+loss Desv. Est: 1 -> 0.0035313345791844458
+
+EPOCH and Lr 2: -> 5/0.05
+accuracy promedio 2: -> 0.7941798941798941
+precision promedio 2: -> 0.839071726795512
+recall promedio 2: -> 0.9380952380952381
+roc Auc promedio 2: -> 0.8016089466089467
+Loss promedio 2: -> 0.46051343376613163
+accuracy Desv. Est 2: -> 0.02819035368581401
+precision Desv. Est 2: -> 0.07116375045411218
+recall Desv. Est: 2 -> 0.11478067422089477
+roc Auc Desv. Est: 2 -> 0.07886742868104436
+loss Desv. Est: 2 -> 0.006309793949914615
+
+EPOCH and Lr 3: -> 5/0.1
+accuracy promedio 3: -> 0.7904761904761904
+precision promedio 3: -> 0.7959505494505494
+recall promedio 3: -> 0.9904761904761905
+roc Auc promedio 3: -> 0.787150072150072
+Loss promedio 3: -> 0.4774206904267809
+accuracy Desv. Est 3: -> 0.02843098131318349
+precision Desv. Est 3: -> 0.018901384834469143
+recall Desv. Est: 3 -> 0.02857142857142857
+roc Auc Desv. Est: 3 -> 0.08830378003853721
+loss Desv. Est: 3 -> 0.007491387145793379
+
+EPOCH and Lr 4: -> 5/0.3
+accuracy promedio 4: -> 0.7327838827838827
+precision promedio 4: -> 0.7135531135531135
+recall promedio 4: -> 0.9
+roc Auc promedio 4: -> 0.772958152958153
+Loss promedio 4: -> 0.5316748624953443
+accuracy Desv. Est 4: -> 0.18062010071684007
+precision Desv. Est 4: -> 0.23820069046367423
+recall Desv. Est: 4 -> 0.3
+roc Auc Desv. Est: 4 -> 0.08244798587691243
+loss Desv. Est: 4 -> 0.012815408576014986
+
+EPOCH and Lr 5: -> 5/0.5
+accuracy promedio 5: -> 0.7327838827838827
+precision promedio 5: -> 0.7135531135531135
+recall promedio 5: -> 0.9
+roc Auc promedio 5: -> 0.5398051948051947
+Loss promedio 5: -> 0.7774624455752494
+accuracy Desv. Est 5: -> 0.18062010071684007
+precision Desv. Est 5: -> 0.2382006904636742
+recall Desv. Est: 5 -> 0.3
+roc Auc Desv. Est: 5 -> 0.23317665673458898
+loss Desv. Est: 5 -> 0.1719017768550508
+
+EPOCH and Lr 6: -> 10/0.01
+accuracy promedio 6: -> 0.7904761904761904
+precision promedio 6: -> 0.7935531135531135
+recall promedio 6: -> 0.9952380952380953
+roc Auc promedio 6: -> 0.7563636363636363
+Loss promedio 6: -> 0.4757478919900919
+accuracy Desv. Est 6: -> 0.014717497141131965
+precision Desv. Est 6: -> 0.013079402466204901
+recall Desv. Est: 6 -> 0.014285714285714301
+roc Auc Desv. Est: 6 -> 0.084583482713069
+loss Desv. Est: 6 -> 0.0035313345791844458
+
+EPOCH and Lr 7: -> 10/0.05
+accuracy promedio 7: -> 0.7941798941798941
+precision promedio 7: -> 0.839071726795512
+recall promedio 7: -> 0.9380952380952381
+roc Auc promedio 7: -> 0.8016089466089467
+Loss promedio 7: -> 0.46051343376613163
+accuracy Desv. Est 7: -> 0.02819035368581401
+precision Desv. Est 7: -> 0.07116375045411218
+recall Desv. Est: 7 -> 0.11478067422089477
+roc Auc Desv. Est: 7 -> 0.07886742868104436
+loss Desv. Est: 7 -> 0.006309793949914615
+
+EPOCH and Lr 8: -> 10/0.1
+accuracy promedio 8: -> 0.7904761904761904
+precision promedio 8: -> 0.7959505494505494
+recall promedio 8: -> 0.9904761904761905
+roc Auc promedio 8: -> 0.787150072150072
+Loss promedio 8: -> 0.4774206904267809
+accuracy Desv. Est 8: -> 0.02843098131318349
+precision Desv. Est 8: -> 0.018901384834469143
+recall Desv. Est: 8 -> 0.02857142857142857
+roc Auc Desv. Est: 8 -> 0.08830378003853721
+loss Desv. Est: 8 -> 0.007491387145793379
+
+EPOCH and Lr 9: -> 10/0.3
+accuracy promedio 9: -> 0.7327838827838827
+precision promedio 9: -> 0.7135531135531135
+recall promedio 9: -> 0.9
+roc Auc promedio 9: -> 0.772958152958153
+Loss promedio 9: -> 0.5316748624953443
+accuracy Desv. Est 9: -> 0.18062010071684007
+precision Desv. Est 9: -> 0.23820069046367423
+recall Desv. Est: 9 -> 0.3
+roc Auc Desv. Est: 9 -> 0.08244798587691243
+loss Desv. Est: 9 -> 0.012815408576014986
+
+EPOCH and Lr 10: -> 10/0.5
+accuracy promedio 10: -> 0.7327838827838827
+precision promedio 10: -> 0.7135531135531135
+recall promedio 10: -> 0.9
+roc Auc promedio 10: -> 0.5398051948051947
+Loss promedio 10: -> 0.7774624455752494
+accuracy Desv. Est 10: -> 0.18062010071684007
+precision Desv. Est 10: -> 0.2382006904636742
+recall Desv. Est: 10 -> 0.3
+roc Auc Desv. Est: 10 -> 0.23317665673458898
+loss Desv. Est: 10 -> 0.1719017768550508
+
+EPOCH and Lr 11: -> 15/0.01
+accuracy promedio 11: -> 0.7904761904761904
+precision promedio 11: -> 0.7935531135531135
+recall promedio 11: -> 0.9952380952380953
+roc Auc promedio 11: -> 0.7563636363636363
+Loss promedio 11: -> 0.4757478919900919
+accuracy Desv. Est 11: -> 0.014717497141131965
+precision Desv. Est 11: -> 0.013079402466204901
+recall Desv. Est: 11 -> 0.014285714285714301
+roc Auc Desv. Est: 11 -> 0.084583482713069
+loss Desv. Est: 11 -> 0.0035313345791844458
+
+EPOCH and Lr 12: -> 15/0.05
+accuracy promedio 12: -> 0.7941798941798941
+precision promedio 12: -> 0.839071726795512
+recall promedio 12: -> 0.9380952380952381
+roc Auc promedio 12: -> 0.8016089466089467
+Loss promedio 12: -> 0.46051343376613163
+accuracy Desv. Est 12: -> 0.02819035368581401
+precision Desv. Est 12: -> 0.07116375045411218
+recall Desv. Est: 12 -> 0.11478067422089477
+roc Auc Desv. Est: 12 -> 0.07886742868104436
+loss Desv. Est: 12 -> 0.006309793949914615
+
+EPOCH and Lr 13: -> 15/0.1
+accuracy promedio 13: -> 0.7904761904761904
+precision promedio 13: -> 0.7959505494505494
+recall promedio 13: -> 0.9904761904761905
+roc Auc promedio 13: -> 0.787150072150072
+Loss promedio 13: -> 0.4774206904267809
+accuracy Desv. Est 13: -> 0.02843098131318349
+precision Desv. Est 13: -> 0.018901384834469143
+recall Desv. Est: 13 -> 0.02857142857142857
+roc Auc Desv. Est: 13 -> 0.08830378003853721
+loss Desv. Est: 13 -> 0.007491387145793379
+
+EPOCH and Lr 14: -> 15/0.3
+accuracy promedio 14: -> 0.7327838827838827
+precision promedio 14: -> 0.7135531135531135
+recall promedio 14: -> 0.9
+roc Auc promedio 14: -> 0.772958152958153
+Loss promedio 14: -> 0.5316748624953443
+accuracy Desv. Est 14: -> 0.18062010071684007
+precision Desv. Est 14: -> 0.23820069046367423
+recall Desv. Est: 14 -> 0.3
+roc Auc Desv. Est: 14 -> 0.08244798587691243
+loss Desv. Est: 14 -> 0.012815408576014986
+
+EPOCH and Lr 15: -> 15/0.5
+accuracy promedio 15: -> 0.7327838827838827
+precision promedio 15: -> 0.7135531135531135
+recall promedio 15: -> 0.9
+roc Auc promedio 15: -> 0.5398051948051947
+Loss promedio 15: -> 0.7774624455752494
+accuracy Desv. Est 15: -> 0.18062010071684007
+precision Desv. Est 15: -> 0.2382006904636742
+recall Desv. Est: 15 -> 0.3
+roc Auc Desv. Est: 15 -> 0.23317665673458898
+loss Desv. Est: 15 -> 0.1719017768550508
+
+EPOCH and Lr 16: -> 20/0.01
+accuracy promedio 16: -> 0.7904761904761904
+precision promedio 16: -> 0.7935531135531135
+recall promedio 16: -> 0.9952380952380953
+roc Auc promedio 16: -> 0.7563636363636363
+Loss promedio 16: -> 0.4757478919900919
+accuracy Desv. Est 16: -> 0.014717497141131965
+precision Desv. Est 16: -> 0.013079402466204901
+recall Desv. Est: 16 -> 0.014285714285714301
+roc Auc Desv. Est: 16 -> 0.084583482713069
+loss Desv. Est: 16 -> 0.0035313345791844458
+
+EPOCH and Lr 17: -> 20/0.05
+accuracy promedio 17: -> 0.7941798941798941
+precision promedio 17: -> 0.839071726795512
+recall promedio 17: -> 0.9380952380952381
+roc Auc promedio 17: -> 0.8016089466089467
+Loss promedio 17: -> 0.46051343376613163
+accuracy Desv. Est 17: -> 0.02819035368581401
+precision Desv. Est 17: -> 0.07116375045411218
+recall Desv. Est: 17 -> 0.11478067422089477
+roc Auc Desv. Est: 17 -> 0.07886742868104436
+loss Desv. Est: 17 -> 0.006309793949914615
+
+EPOCH and Lr 18: -> 20/0.1
+accuracy promedio 18: -> 0.7904761904761904
+precision promedio 18: -> 0.7959505494505494
+recall promedio 18: -> 0.9904761904761905
+roc Auc promedio 18: -> 0.787150072150072
+Loss promedio 18: -> 0.4774206904267809
+accuracy Desv. Est 18: -> 0.02843098131318349
+precision Desv. Est 18: -> 0.018901384834469143
+recall Desv. Est: 18 -> 0.02857142857142857
+roc Auc Desv. Est: 18 -> 0.08830378003853721
+loss Desv. Est: 18 -> 0.007491387145793379
+
+EPOCH and Lr 19: -> 20/0.3
+accuracy promedio 19: -> 0.7327838827838827
+precision promedio 19: -> 0.7135531135531135
+recall promedio 19: -> 0.9
+roc Auc promedio 19: -> 0.772958152958153
+Loss promedio 19: -> 0.5316748624953443
+accuracy Desv. Est 19: -> 0.18062010071684007
+precision Desv. Est 19: -> 0.23820069046367423
+recall Desv. Est: 19 -> 0.3
+roc Auc Desv. Est: 19 -> 0.08244798587691243
+loss Desv. Est: 19 -> 0.012815408576014986
+
+EPOCH and Lr 20: -> 20/0.5
+accuracy promedio 20: -> 0.7327838827838827
+precision promedio 20: -> 0.7135531135531135
+recall promedio 20: -> 0.9
+roc Auc promedio 20: -> 0.5398051948051947
+Loss promedio 20: -> 0.7774624455752494
+accuracy Desv. Est 20: -> 0.18062010071684007
+precision Desv. Est 20: -> 0.2382006904636742
+recall Desv. Est: 20 -> 0.3
+roc Auc Desv. Est: 20 -> 0.23317665673458898
+loss Desv. Est: 20 -> 0.1719017768550508
+
+EPOCH and Lr 21: -> 25/0.01
+accuracy promedio 21: -> 0.7904761904761904
+precision promedio 21: -> 0.7935531135531135
+recall promedio 21: -> 0.9952380952380953
+roc Auc promedio 21: -> 0.7563636363636363
+Loss promedio 21: -> 0.4757478919900919
+accuracy Desv. Est 21: -> 0.014717497141131965
+precision Desv. Est 21: -> 0.013079402466204901
+recall Desv. Est: 21 -> 0.014285714285714301
+roc Auc Desv. Est: 21 -> 0.084583482713069
+loss Desv. Est: 21 -> 0.0035313345791844458
+
+EPOCH and Lr 22: -> 25/0.05
+accuracy promedio 22: -> 0.7941798941798941
+precision promedio 22: -> 0.839071726795512
+recall promedio 22: -> 0.9380952380952381
+roc Auc promedio 22: -> 0.8016089466089467
+Loss promedio 22: -> 0.46051343376613163
+accuracy Desv. Est 22: -> 0.02819035368581401
+precision Desv. Est 22: -> 0.07116375045411218
+recall Desv. Est: 22 -> 0.11478067422089477
+roc Auc Desv. Est: 22 -> 0.07886742868104436
+loss Desv. Est: 22 -> 0.006309793949914615
+
+EPOCH and Lr 23: -> 25/0.1
+accuracy promedio 23: -> 0.7904761904761904
+precision promedio 23: -> 0.7959505494505494
+recall promedio 23: -> 0.9904761904761905
+roc Auc promedio 23: -> 0.787150072150072
+Loss promedio 23: -> 0.4774206904267809
+accuracy Desv. Est 23: -> 0.02843098131318349
+precision Desv. Est 23: -> 0.018901384834469143
+recall Desv. Est: 23 -> 0.02857142857142857
+roc Auc Desv. Est: 23 -> 0.08830378003853721
+loss Desv. Est: 23 -> 0.007491387145793379
+
+EPOCH and Lr 24: -> 25/0.3
+accuracy promedio 24: -> 0.7327838827838827
+precision promedio 24: -> 0.7135531135531135
+recall promedio 24: -> 0.9
+roc Auc promedio 24: -> 0.772958152958153
+Loss promedio 24: -> 0.5316748624953443
+accuracy Desv. Est 24: -> 0.18062010071684007
+precision Desv. Est 24: -> 0.23820069046367423
+recall Desv. Est: 24 -> 0.3
+roc Auc Desv. Est: 24 -> 0.08244798587691243
+loss Desv. Est: 24 -> 0.012815408576014986
+
+EPOCH and Lr 25: -> 25/0.5
+accuracy promedio 25: -> 0.7327838827838827
+precision promedio 25: -> 0.7135531135531135
+recall promedio 25: -> 0.9
+roc Auc promedio 25: -> 0.5398051948051947
+Loss promedio 25: -> 0.7774624455752494
+accuracy Desv. Est 25: -> 0.18062010071684007
+precision Desv. Est 25: -> 0.2382006904636742
+recall Desv. Est: 25 -> 0.3
+roc Auc Desv. Est: 25 -> 0.23317665673458898
+loss Desv. Est: 25 -> 0.1719017768550508
+
+EPOCH and Lr 26: -> 30/0.01
+accuracy promedio 26: -> 0.7904761904761904
+precision promedio 26: -> 0.7935531135531135
+recall promedio 26: -> 0.9952380952380953
+roc Auc promedio 26: -> 0.7563636363636363
+Loss promedio 26: -> 0.4757478919900919
+accuracy Desv. Est 26: -> 0.014717497141131965
+precision Desv. Est 26: -> 0.013079402466204901
+recall Desv. Est: 26 -> 0.014285714285714301
+roc Auc Desv. Est: 26 -> 0.084583482713069
+loss Desv. Est: 26 -> 0.0035313345791844458
+
+EPOCH and Lr 27: -> 30/0.05
+accuracy promedio 27: -> 0.7941798941798941
+precision promedio 27: -> 0.839071726795512
+recall promedio 27: -> 0.9380952380952381
+roc Auc promedio 27: -> 0.8016089466089467
+Loss promedio 27: -> 0.46051343376613163
+accuracy Desv. Est 27: -> 0.02819035368581401
+precision Desv. Est 27: -> 0.07116375045411218
+recall Desv. Est: 27 -> 0.11478067422089477
+roc Auc Desv. Est: 27 -> 0.07886742868104436
+loss Desv. Est: 27 -> 0.006309793949914615
+
+EPOCH and Lr 28: -> 30/0.1
+accuracy promedio 28: -> 0.7904761904761904
+precision promedio 28: -> 0.7959505494505494
+recall promedio 28: -> 0.9904761904761905
+roc Auc promedio 28: -> 0.787150072150072
+Loss promedio 28: -> 0.4774206904267809
+accuracy Desv. Est 28: -> 0.02843098131318349
+precision Desv. Est 28: -> 0.018901384834469143
+recall Desv. Est: 28 -> 0.02857142857142857
+roc Auc Desv. Est: 28 -> 0.08830378003853721
+loss Desv. Est: 28 -> 0.007491387145793379
+
+EPOCH and Lr 29: -> 30/0.3
+accuracy promedio 29: -> 0.7327838827838827
+precision promedio 29: -> 0.7135531135531135
+recall promedio 29: -> 0.9
+roc Auc promedio 29: -> 0.772958152958153
+Loss promedio 29: -> 0.5316748624953443
+accuracy Desv. Est 29: -> 0.18062010071684007
+precision Desv. Est 29: -> 0.23820069046367423
+recall Desv. Est: 29 -> 0.3
+roc Auc Desv. Est: 29 -> 0.08244798587691243
+loss Desv. Est: 29 -> 0.012815408576014986
+
+EPOCH and Lr 30: -> 30/0.5
+accuracy promedio 30: -> 0.7327838827838827
+precision promedio 30: -> 0.7135531135531135
+recall promedio 30: -> 0.9
+roc Auc promedio 30: -> 0.5398051948051947
+Loss promedio 30: -> 0.7774624455752494
+accuracy Desv. Est 30: -> 0.18062010071684007
+precision Desv. Est 30: -> 0.2382006904636742
+recall Desv. Est: 30 -> 0.3
+roc Auc Desv. Est: 30 -> 0.23317665673458898
+loss Desv. Est: 30 -> 0.1719017768550508
+
+Higher AUC of the model: -> 0.8016089466089467
