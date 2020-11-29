@@ -1,5 +1,0 @@
-Best NN Configuration Confussion Matrix:
-tn -> 0
-fp -> 55
-fn -> 0
-tp -> 212
