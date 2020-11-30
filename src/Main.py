@@ -3,6 +3,9 @@
 # imports
 from Coordinator import Coordinator
 import pandas as pd
+from scipy import stats
+import numpy as np
+
 
 # Input
 initPath = r'data\input\initial\DATA.csv'
@@ -31,14 +34,17 @@ coord = Coordinator()
 # joinedDS = coord.join(pathA, pathB)
 # normalize joined Dataset
 initPf = pd.read_csv(initPath, delimiter=';', encoding="ISO-8859-1")
+initPf[initPf < 0] = 0
+# initPf[(np.abs(stats.zscore(initPf)) < 3).all(axis=1)]
 normPf = coord.normalize(initPf)
 print('normPf ', str(normPf))
 writeToFile(str(normPf), initNormed, 'w')
 
-# Run Spectral clustering for k 2 to k 10
-coord.runConfig(normPf.sample(100))
+
+# # Run Spectral clustering for k 2 to k 10
+labelsList = coord.runConfig(normPf.head(100))
 
 # Run best k spectral clustering
-resultDict = coord.run(normPf.sample(100), 6)
+resultDict = coord.run(normPf.head(100), 3, labelsList)
 strResDict = dictToStr(resultDict)
 writeToFile(strResDict, resultsPath, 'w')

@@ -14,8 +14,9 @@ import itertools
 from sklearn.manifold import TSNE
 from collections import defaultdict
 # scipy test
-from scipy.cluster.vq import kmeans, vq
+from scipy.cluster.vq import kmeans, vq, kmeans2
 from scipy.spatial.distance import cdist
+from sklearn.cluster import KMeans
 
 # personalized import
 # from sklearn.cluster import SpectralClustering
@@ -71,8 +72,8 @@ class Coordinator:
         for _, dim in dataSet.iterrows():  # for dimension or attributes
             # avoid normalizing first binary column
             for idxCol, value in dim.items():  # for idx or numerosity
-                dataSet.iat[int(idxRow), int(idxCol)] = round(
-                    (value-min)/(max-min), 12)
+                dataSet.iat[int(idxRow), int(idxCol)] = (
+                    value-min)/(max-min)  # round(, 20)
             # increment row count
             idxRow += 1
 
@@ -85,7 +86,6 @@ class Coordinator:
     def runConfig(self, completeDf):
         # shuffle
         rowNum, _ = completeDf.shape
-        completeDf = completeDf.sample(rowNum, random_state=1)
         # Transform data to numpy matrix
         completeDf = completeDf.to_numpy().astype(float)
         # Spectral Clustering
@@ -97,9 +97,9 @@ class Coordinator:
         # total mean loss per epoch list
         inertias = []
         # kmeans results
-        kMeansList = []
         centroidsList = []
-        avgDist = []
+        dists = []
+        labelsList = []
         # for all configured kValues
         count = 0
         for k in kValues:
@@ -108,7 +108,7 @@ class Coordinator:
 
             # run ML Model
             clf = SpectralClustering(
-                n_clusters=kMax, affinity='rbf')
+                n_clusters=kMax, affinity='rbf', random_state=10)
 
             # get model predicted labels
             # Training the model and Storing the predicted cluster labels
@@ -127,26 +127,28 @@ class Coordinator:
 
             # scipy test
             km = kmeans(spectMap, k)
-            centroide, _ = km
+            centroide, labels = km
             distTemp = cdist(spectMap, centroide, 'euclidean')
             idx = np.argmin(distTemp, axis=1)
             dist = np.min(distTemp, axis=1)
-            avgSS = sum(dist) / spectMap.shape[0]
+            avgSS = sum(dist) / spectMap.shape[1]
             print('avgSS', avgSS)
 
             # append to arrays for graphics
-            kMeansList.append(km)
-            centroidsList.append(centroide)
-            avgDist.append(avgSS)
+            centroidsList.append(clusters)
+            dists.append(avgSS)
+            labelsList.append(labels)
         # plot k vs. inertia
         # self.bestKPlot(kValues, inertias)
-        self.kDistancePlot(kValues, avgDist)
+        self.kDistancePlot(kValues, dists)
+        # return
+        return labelsList
+        # self.kDistancePlot(kValues, labelsList)
 
     # Run one Spectral Clustering
-    def run(self, completeDf, k):
+    def run(self, completeDf, k, labelsList):
         # shuffle
         rowNum, _ = completeDf.shape
-        completeDf = completeDf.sample(rowNum, random_state=1)
         # Transform data to numpy matrix
         completeDfNump = completeDf.to_numpy().astype(float)
         # Spectral Clustering
@@ -155,11 +157,12 @@ class Coordinator:
 
         # run ML Model
         clf = SpectralClustering(
-            n_clusters=kVal, affinity='rbf')
+            n_clusters=kVal, affinity='nearest_neighbors', random_state=10)  # rbf
         # get model predicted labels
         # Training the model and Storing the predicted cluster labels
         # predLabels = clf.fit_predict(completeDfNump)
         clf.fit(completeDfNump)
+        print('completeDfNump', completeDfNump.shape)
         y_pred = clf.labels_
         inertia = clf.inertia
         clusters = clf.clusters
@@ -168,17 +171,47 @@ class Coordinator:
         # save inertia
         # plot k vs. inertia
         # self.bestKPlot(kValues, inertias)
-        colNames = completeDf.columns.values
-        resultGroups = self.bestKPlot(spectMap, y_pred, colNames)
+
+        # Apply kmeans to spectral map
+        print('shape is')
+        print(spectMap.shape)
+        modelKMeans = KMeans(n_clusters=kVal, random_state=10,
+                             init='k-means++').fit(spectMap)
+        labelsKmeans = modelKMeans.labels_
+        print('ypred is ', y_pred)
+        print('labelsmeans is ', labelsKmeans)
+        # Generate new matrix
+        # spectMapLists = spectMap.transpose().tolist()
+        # newMatrix = [[]]*kVal
+        # for i in range(spectMap.shape[0]):
+        #     row = [row[i] for row in spectMapLists]
+        #     if labels[i] == 0:
+        #         newMatrix[0].extend(row)
+        #     if labels[i] == 1:
+        #         newMatrix[1].extend(row)
+        #     if labels[i] == 2:
+        #         newMatrix[2].extend(row)
+        #     if labels[i] == 3:
+        #         newMatrix[3].extend(row)
+        #     if labels[i] == 4:
+        #         newMatrix[4].extend(row)
+        #     if labels[i] == 5:
+        #         newMatrix[5].extend(row)
+
+        # Plot
+        print('labelsKmeans', labelsKmeans)
+        print('LABELS ARE HERE', labelsList)
+        resultGroups = self.bestKPlot(completeDfNump, labelsKmeans)
         # return
         return resultGroups
 
     # best k plot with tsne
-    def bestKPlot(self, spectralMap, labels, colNames):
+    def bestKPlot(self, completeDf, labels):
         # Color Mapping
         # Building the label to color pallette
-        print('spectralMap.shape')
-        print(spectralMap.shape)
+        print('num labels', len(labels))
+        print('completeDf.shape')
+        print(completeDf.shape)
         colDict = {}
         colDict['blue'] = 'b'
         colDict['yellow'] = 'y'
@@ -189,8 +222,8 @@ class Coordinator:
 
         colors = list(colDict.values())  # , 'k']
 
-        # get only needed colors for features in spectralMap
-        _, numCols = spectralMap.shape
+        # get only needed colors for features in completeDf
+        _, numCols = completeDf.shape
         colors = colors[:numCols]
 
         # color chosen pallete
@@ -199,9 +232,11 @@ class Coordinator:
         print('cPallette', cPallette)
 
         # TSNE
-        newMatrix = spectralMap  # np.transpose(spectralMap)
-        newMatrix = TSNE(early_exaggeration=200.0).fit_transform(
-            newMatrix)  # can set rand state
+        newMatrix = TSNE(early_exaggeration=100, random_state=10).fit_transform(
+            completeDf)  # can set rand state
+        print('New MATRIX')
+        print(newMatrix)
+        print(newMatrix.shape)
 
         # figure
         plt.figure("Best k with tsne Plot")
@@ -224,19 +259,23 @@ class Coordinator:
         g3 = []
         g4 = []
         g5 = []
-        for lab, colN in zip(labels, colNames):
+        count = 0
+        for lab in labels:
+            print('lab', lab)
             if lab == 0:
-                g0.append(colN)
+                g0.append(count)
             if lab == 1:
-                g1.append(colN)
+                g1.append(count)
             if lab == 2:
-                g2.append(colN)
+                g2.append(count)
             if lab == 3:
-                g3.append(colN)
+                g3.append(count)
             if lab == 4:
-                g4.append(colN)
-            else:
-                g5.append(colN)
+                g4.append(count)
+            if lab == 5:
+                g5.append(count)
+            # increment count
+            count += 1
         # dictionary result to print in text file
         colorNames = list(colDict.keys())
         resultDict[colorNames[0]].extend(g0)
@@ -261,11 +300,11 @@ class Coordinator:
         # plt.legend(tuple(labcolors), tuple(labNames))
 
     # k vs inertia graphic
-    def kDistancePlot(self, kValues, inertias):
-        pyplot.plot(kValues, inertias, marker='.',
-                    label='K vs. Inertia')
+    def kDistancePlot(self, kValues, distances):
+        pyplot.plot(kValues, distances, marker='.',
+                    label='K vs. D')
         pyplot.xlabel('K Values')
-        pyplot.ylabel('Inertia')
+        pyplot.ylabel('Distance')
         # show the legend
         pyplot.legend()
         # show the plot
