@@ -1,5 +1,3 @@
-# Program to run test three different decission trees classification
-
 # imports
 from Coordinator import Coordinator
 import pandas as pd
