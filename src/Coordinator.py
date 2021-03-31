@@ -4,7 +4,6 @@
 # imports
 import pandas as pd
 from sklearn.model_selection import StratifiedKFold, KFold
-from sklearn.neighbors import KNeighborsClassifier
 from sklearn import tree
 import matplotlib.pyplot as plt
 from sklearn.metrics import confusion_matrix, roc_curve, precision_recall_curve, accuracy_score, precision_score, recall_score, roc_auc_score
